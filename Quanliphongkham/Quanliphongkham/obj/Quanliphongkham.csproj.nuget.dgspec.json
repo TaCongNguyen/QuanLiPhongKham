@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\QuanLiPhongKham\\Quanliphongkham\\Quanliphongkham\\Quanliphongkham.csproj": {}
+    "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {}
   },
   "projects": {
-    "E:\\QuanLiPhongKham\\Quanliphongkham\\Quanliphongkham\\Quanliphongkham.csproj": {
+    "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\QuanLiPhongKham\\Quanliphongkham\\Quanliphongkham\\Quanliphongkham.csproj",
-        "projectName": "Quanliphongkham",
-        "projectPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\Quanliphongkham\\Quanliphongkham.csproj",
+        "projectUniqueName": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+        "projectName": "QuanLiPhongKham",
+        "projectPath": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\Quanliphongkham\\obj\\",
+        "outputPath": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
