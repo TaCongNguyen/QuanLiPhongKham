@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\QuanLiPhongKham\\QuanLiPhongKham\\BUS\\BUS.csproj": {}
+    "E:\\QuanLiPhongKham\\Quanliphongkham\\BUS\\BUS.csproj": {}
   },
   "projects": {
-    "E:\\QuanLiPhongKham\\QuanLiPhongKham\\BUS\\BUS.csproj": {
+    "E:\\QuanLiPhongKham\\Quanliphongkham\\BUS\\BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\BUS\\BUS.csproj",
+        "projectUniqueName": "E:\\QuanLiPhongKham\\Quanliphongkham\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\BUS\\BUS.csproj",
+        "projectPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\BUS\\BUS.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\BUS\\obj\\",
+        "outputPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\BUS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
