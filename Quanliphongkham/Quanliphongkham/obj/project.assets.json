@@ -1,92 +1,33 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Microsoft.ReportViewer.Common/10.0.40219.1": {
-        "type": "package",
-        "compile": {
-          "lib/Microsoft.ReportViewer.Common.dll": {},
-          "lib/Microsoft.ReportViewer.DataVisualization.dll": {},
-          "lib/Microsoft.ReportViewer.ProcessingObjectModel.dll": {}
-        },
-        "runtime": {
-          "lib/Microsoft.ReportViewer.Common.dll": {},
-          "lib/Microsoft.ReportViewer.DataVisualization.dll": {},
-          "lib/Microsoft.ReportViewer.ProcessingObjectModel.dll": {}
-        }
-      },
-      "Microsoft.ReportViewer.WinForms.v12/12.0.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/Microsoft.ReportViewer.WinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Microsoft.ReportViewer.WinForms.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Microsoft.ReportViewer.Common/10.0.40219.1": {
-      "sha512": "BvYKVVgeRwdwiqCDUdIbaV179YIXg4RD+MlHI4KndReULmM2xO6KGlYmxOOMB/Lq5ktwFuMVyChbZgpgUqEgHw==",
-      "type": "package",
-      "path": "microsoft.reportviewer.common/10.0.40219.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/Microsoft.ReportViewer.Common.dll",
-        "lib/Microsoft.ReportViewer.DataVisualization.dll",
-        "lib/Microsoft.ReportViewer.ProcessingObjectModel.dll",
-        "microsoft.reportviewer.common.10.0.40219.1.nupkg.sha512",
-        "microsoft.reportviewer.common.nuspec"
-      ]
-    },
-    "Microsoft.ReportViewer.WinForms.v12/12.0.0.1": {
-      "sha512": "Yb2ri50WcIMPRiqYMlwLaDUcGqw5jCMgQHiLkZlK6kOdA4uqOtC+AtoPL0iwUuaIhNiyULbr/ez2NKvc5zwaWA==",
-      "type": "package",
-      "path": "microsoft.reportviewer.winforms.v12/12.0.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/Microsoft.ReportViewer.WinForms.dll",
-        "microsoft.reportviewer.winforms.v12.12.0.0.1.nupkg.sha512",
-        "microsoft.reportviewer.winforms.v12.nuspec"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Microsoft.ReportViewer.Common >= 10.0.40219.1",
-      "Microsoft.ReportViewer.WinForms.v12 >= 12.0.0.1"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\bearbb\\.nuget\\packages\\": {},
-    "D:\\Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\nguye\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+      "projectUniqueName": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
       "projectName": "QuanLiPhongKham",
-      "projectPath": "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
-      "packagesPath": "C:\\Users\\bearbb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\obj\\",
+      "projectPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+      "outputPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bearbb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -103,16 +44,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
-        "dependencies": {
-          "Microsoft.ReportViewer.Common": {
-            "target": "Package",
-            "version": "[10.0.40219.1, )"
-          },
-          "Microsoft.ReportViewer.WinForms.v12": {
-            "target": "Package",
-            "version": "[12.0.0.1, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -131,30 +62,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.ReportViewer.Common 10.0.40219.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.ReportViewer.Common",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.ReportViewer.WinForms.v12 12.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.ReportViewer.WinForms.v12",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

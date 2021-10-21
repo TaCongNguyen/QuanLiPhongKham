@@ -1,32 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {}
+    "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {
+    "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+        "projectUniqueName": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
         "projectName": "QuanLiPhongKham",
-        "projectPath": "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
-        "packagesPath": "C:\\Users\\bearbb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\obj\\",
+        "projectPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bearbb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -43,16 +38,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.ReportViewer.Common": {
-              "target": "Package",
-              "version": "[10.0.40219.1, )"
-            },
-            "Microsoft.ReportViewer.WinForms.v12": {
-              "target": "Package",
-              "version": "[12.0.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -71,7 +56,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
