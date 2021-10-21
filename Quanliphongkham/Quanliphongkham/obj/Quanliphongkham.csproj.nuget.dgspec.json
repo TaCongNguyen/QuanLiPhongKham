@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {}
+    "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {}
   },
   "projects": {
-    "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {
+    "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+        "projectUniqueName": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
         "projectName": "QuanLiPhongKham",
-        "projectPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+        "projectPath": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\obj\\",
+        "outputPath": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
