@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {}
+    "E:\\QuanLiPhongKham\\Quanliphongkham\\DTO\\DTO.csproj": {}
   },
   "projects": {
-    "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj": {
+    "E:\\QuanLiPhongKham\\Quanliphongkham\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
-        "projectName": "QuanLiPhongKham",
-        "projectPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+        "projectUniqueName": "E:\\QuanLiPhongKham\\Quanliphongkham\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\QuanLiPhongKham\\obj\\",
+        "outputPath": "E:\\QuanLiPhongKham\\Quanliphongkham\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
