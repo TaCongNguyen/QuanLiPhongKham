@@ -1,8 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "o+Qvq7lz+5BOgokb8BecxGpQ1x5+vKK7dNkODx9DacNbtabHma5t25Su8Yru1nX2zbqny/j5qlXrz0jmcq3Lwg==",
+  "dgSpecHash": "sxBlmyan8tcj3I6wGBhAGiMu6OkNmxX+7BGCZ9WoVWnruXu34ppXoGhiq2ezzHdV56pHBuH/XeSlkjdM97yPiw==",
   "success": true,
-  "projectFilePath": "E:\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\bearbb\\Source\\Repos\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham\\QuanLiPhongKham.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bearbb\\.nuget\\packages\\microsoft.reportviewer.common\\10.0.40219.1\\microsoft.reportviewer.common.10.0.40219.1.nupkg.sha512",
+    "C:\\Users\\bearbb\\.nuget\\packages\\microsoft.reportviewer.winforms.v12\\12.0.0.1\\microsoft.reportviewer.winforms.v12.12.0.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.ReportViewer.Common 10.0.40219.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.ReportViewer.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.ReportViewer.WinForms.v12 12.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.ReportViewer.WinForms.v12",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

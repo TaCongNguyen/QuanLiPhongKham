@@ -21,3 +21,5 @@ namespace QuanLiPhongKham
         }
     }
 }
+
+//Just a comment to create some difference
