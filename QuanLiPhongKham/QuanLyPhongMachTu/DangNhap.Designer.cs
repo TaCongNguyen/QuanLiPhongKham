@@ -1,4 +1,4 @@
-namespace QuanLyPhongKham
+namespace QuanLyPhongMachTu
 {
     partial class DangNhap
     {
