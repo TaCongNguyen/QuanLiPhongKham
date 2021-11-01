@@ -1,9 +1,0 @@
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\bin\Debug\QuanLiPhongKham.exe.config
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\bin\Debug\QuanLiPhongKham.exe
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\bin\Debug\QuanLiPhongKham.pdb
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\obj\Debug\QuanLiPhongKham.csproj.AssemblyReference.cache
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\obj\Debug\QuanLiPhongKham.Properties.Resources.resources
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\obj\Debug\QuanLiPhongKham.csproj.GenerateResource.cache
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\obj\Debug\QuanLiPhongKham.csproj.CoreCompileInputs.cache
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\obj\Debug\QuanLiPhongKham.exe
-E:\QuanLiPhongKham\QuanLiPhongKham\QuanLiPhongKham\obj\Debug\QuanLiPhongKham.pdb
