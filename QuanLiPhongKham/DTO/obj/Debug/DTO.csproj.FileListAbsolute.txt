@@ -1,0 +1,59 @@
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe.config
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\QuanLyPhongMachTu\DTO\bin\Debug\DTO.pdb
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.Properties.Resources.resources
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.GenerateResource.Cache
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.exe
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.pdb
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\BanGoc\code\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe.config
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\BanGoc\code\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\BanGoc\code\QuanLyPhongMachTu\DTO\bin\Debug\DTO.pdb
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\BanGoc\code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\BanGoc\code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.Properties.Resources.resources
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\BanGoc\code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.GenerateResource.Cache
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\BanGoc\code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.exe
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\Code\BanGoc\code\QuanLyPhongMachTu\DTO\obj\Debug\DTO.pdb
+C:\Users\TRAN THI SOAN\Desktop\Code\up 4\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe.config
+C:\Users\TRAN THI SOAN\Desktop\Code\up 4\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe
+C:\Users\TRAN THI SOAN\Desktop\Code\up 4\QuanLyPhongMachTu\DTO\bin\Debug\DTO.pdb
+C:\Users\TRAN THI SOAN\Desktop\Code\up 4\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\TRAN THI SOAN\Desktop\Code\up 4\QuanLyPhongMachTu\DTO\obj\Debug\DTO.Properties.Resources.resources
+C:\Users\TRAN THI SOAN\Desktop\Code\up 4\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.GenerateResource.Cache
+C:\Users\TRAN THI SOAN\Desktop\Code\up 4\QuanLyPhongMachTu\DTO\obj\Debug\DTO.exe
+C:\Users\TRAN THI SOAN\Desktop\Code\up 4\QuanLyPhongMachTu\DTO\obj\Debug\DTO.pdb
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\GOM CODE\SOAN\up10\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe.config
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\GOM CODE\SOAN\up10\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\GOM CODE\SOAN\up10\QuanLyPhongMachTu\DTO\bin\Debug\DTO.pdb
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\GOM CODE\SOAN\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\GOM CODE\SOAN\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.Properties.Resources.resources
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\GOM CODE\SOAN\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.GenerateResource.Cache
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\GOM CODE\SOAN\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.exe
+E:\HOC-TAP\UIT\MON-HOC\HỌC KỲ 4-SV NĂM 2\Nhập môn công nghệ phần mềm\code\GOM CODE\SOAN\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.pdb
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe.config
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\bin\Debug\DTO.exe
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\bin\Debug\DTO.pdb
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.Properties.Resources.resources
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.exe
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu\DTO\obj\Debug\DTO.pdb
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\bin\Debug\DTO.exe.config
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\bin\Debug\DTO.exe
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\bin\Debug\DTO.pdb
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\obj\Debug\DTO.Properties.Resources.resources
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\obj\Debug\DTO.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\obj\Debug\DTO.exe
+C:\Users\admin\Downloads\up10\QuanLyPhongMachTu - Copy\DTO\obj\Debug\DTO.pdb
+E:\QuanLyPhongKham\DTO\bin\Debug\DTO.exe.config
+E:\QuanLyPhongKham\DTO\bin\Debug\DTO.exe
+E:\QuanLyPhongKham\DTO\bin\Debug\DTO.pdb
+E:\QuanLyPhongKham\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\QuanLyPhongKham\DTO\obj\Debug\DTO.Properties.Resources.resources
+E:\QuanLyPhongKham\DTO\obj\Debug\DTO.csproj.GenerateResource.cache
+E:\QuanLyPhongKham\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\QuanLyPhongKham\DTO\obj\Debug\DTO.exe
+E:\QuanLyPhongKham\DTO\obj\Debug\DTO.pdb
