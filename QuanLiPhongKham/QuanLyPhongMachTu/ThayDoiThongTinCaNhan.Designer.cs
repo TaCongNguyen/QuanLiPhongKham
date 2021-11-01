@@ -1,4 +1,4 @@
-﻿namespace QuanLyPhongMachTu
+﻿namespace QuanLyPhongKham
 {
     partial class ThayDoiThongTinCaNhan
     {
@@ -178,7 +178,7 @@
             // 
             // txb_Ma
             // 
-            this.txb_Ma.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.txb_Ma.BackColor = System.Drawing.Color.DarkRed;
             this.txb_Ma.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txb_Ma.Location = new System.Drawing.Point(338, 18);
             this.txb_Ma.Name = "txb_Ma";
@@ -193,7 +193,7 @@
             // 
             this.lb_ThayDoiThongTinCaNhan.AutoSize = true;
             this.lb_ThayDoiThongTinCaNhan.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_ThayDoiThongTinCaNhan.ForeColor = System.Drawing.Color.DarkRed;
+            this.lb_ThayDoiThongTinCaNhan.ForeColor = System.Drawing.Color.Pink;
             this.lb_ThayDoiThongTinCaNhan.Location = new System.Drawing.Point(268, 9);
             this.lb_ThayDoiThongTinCaNhan.Name = "lb_ThayDoiThongTinCaNhan";
             this.lb_ThayDoiThongTinCaNhan.Size = new System.Drawing.Size(290, 18);
@@ -204,11 +204,11 @@
             // button_SUA
             // 
             this.button_SUA.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_SUA.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button_SUA.BackColor = System.Drawing.Color.DarkRed;
             this.button_SUA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button_SUA.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_SUA.FlatAppearance.BorderColor = System.Drawing.Color.Pink;
             this.button_SUA.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button_SUA.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
+            this.button_SUA.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button_SUA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_SUA.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_SUA.Location = new System.Drawing.Point(365, 459);
@@ -221,10 +221,10 @@
             // 
             // button_Xoa
             // 
-            this.button_Xoa.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button_Xoa.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_Xoa.BackColor = System.Drawing.Color.DarkRed;
+            this.button_Xoa.FlatAppearance.BorderColor = System.Drawing.Color.Pink;
             this.button_Xoa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button_Xoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
+            this.button_Xoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button_Xoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Xoa.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Xoa.Location = new System.Drawing.Point(594, 459);
@@ -240,7 +240,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(815, 528);
             this.Controls.Add(this.button_Xoa);
             this.Controls.Add(this.button_SUA);

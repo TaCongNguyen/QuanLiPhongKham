@@ -11,7 +11,7 @@ using DTO;
 using BUS;
 using static QuanLyPhongMachTu.ThayDoiThongTinCaNhan;
 
-namespace QuanLyPhongMachTu
+namespace QuanLyPhongKham
 {
     public partial class Form_Chinh : Form
     {

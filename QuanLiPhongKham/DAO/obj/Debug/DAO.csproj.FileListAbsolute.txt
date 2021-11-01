@@ -77,3 +77,16 @@ E:\QuanLyPhongKham\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 E:\QuanLyPhongKham\DAO\obj\Debug\DAO.csproj.CopyComplete
 E:\QuanLyPhongKham\DAO\obj\Debug\DAO.exe
 E:\QuanLyPhongKham\DAO\obj\Debug\DAO.pdb
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\bin\Debug\DAO.exe.config
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\bin\Debug\DAO.exe
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\bin\Debug\DAO.pdb
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\bin\Debug\DTO.exe
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\bin\Debug\DTO.pdb
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\bin\Debug\DTO.exe.config
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\obj\Debug\DAO.Properties.Resources.resources
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.GenerateResource.cache
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.CopyComplete
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\obj\Debug\DAO.exe
+E:\QuanLyPhongKham\QuanLiPhongKham\DAO\obj\Debug\DAO.pdb

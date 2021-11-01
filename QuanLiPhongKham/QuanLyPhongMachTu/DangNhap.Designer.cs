@@ -1,4 +1,4 @@
-﻿namespace QuanLyPhongMachTu
+namespace QuanLyPhongKham
 {
     partial class DangNhap
     {
@@ -57,7 +57,7 @@
             this.panelSoan.Controls.Add(this.buton_DangNhap);
             this.panelSoan.Controls.Add(this.panel3);
             this.panelSoan.Controls.Add(this.panel2);
-            this.panelSoan.Location = new System.Drawing.Point(1, 12);
+            this.panelSoan.Location = new System.Drawing.Point(1, 13);
             this.panelSoan.Name = "panelSoan";
             this.panelSoan.Size = new System.Drawing.Size(704, 300);
             this.panelSoan.TabIndex = 0;
@@ -68,14 +68,14 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(11, 93);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(94, 112);
+            this.panel1.Size = new System.Drawing.Size(93, 112);
             this.panel1.TabIndex = 4;
             // 
             // lb_ThongTinDangNhap
             // 
             this.lb_ThongTinDangNhap.AutoSize = true;
             this.lb_ThongTinDangNhap.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_ThongTinDangNhap.ForeColor = System.Drawing.Color.DarkRed;
+            this.lb_ThongTinDangNhap.ForeColor = System.Drawing.Color.Pink;
             this.lb_ThongTinDangNhap.Location = new System.Drawing.Point(211, 19);
             this.lb_ThongTinDangNhap.Name = "lb_ThongTinDangNhap";
             this.lb_ThongTinDangNhap.Size = new System.Drawing.Size(244, 23);
@@ -84,10 +84,10 @@
             // 
             // button_Thoat
             // 
-            this.button_Thoat.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button_Thoat.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_Thoat.BackColor = System.Drawing.Color.DarkRed;
+            this.button_Thoat.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.button_Thoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button_Thoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
+            this.button_Thoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
             this.button_Thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Thoat.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Thoat.Location = new System.Drawing.Point(569, 246);
@@ -101,10 +101,10 @@
             // buton_DangNhap
             // 
             this.buton_DangNhap.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buton_DangNhap.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.buton_DangNhap.BackColor = System.Drawing.Color.Yellow;
             this.buton_DangNhap.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.buton_DangNhap.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.buton_DangNhap.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
+            this.buton_DangNhap.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
             this.buton_DangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buton_DangNhap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buton_DangNhap.Location = new System.Drawing.Point(380, 246);
