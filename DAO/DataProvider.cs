@@ -23,8 +23,9 @@ namespace DAO
                 return instance;
             }
         }
-        
-        public DataTable ExecuteQuery(string query,object[] para=null)
+
+        // Suitable for query, stored procedure that will return value
+        public DataTable ExecuteQuery(string query, params SqlParameter[] parameters)
         {
             DataTable data = new DataTable();
             try
@@ -35,23 +36,11 @@ namespace DAO
                     SqlCommand command = new SqlCommand(query, connection);
 
                     // if exist para --> query is stored procedure
-                    // Ex: query="SP_Login @userName,@passWord"
-                    // para = [username,password]
-                    // otherwise it will be a normal query
-                    if (para != null)
+                    // else it will be a normal query
+                    if (parameters.Length > 0)
                     {
-                        string[] lstPara = query.Split(
-                            new char[] { ',', ' '},
-                            StringSplitOptions.RemoveEmptyEntries);
-                        int i = 0;
-                        foreach (string item in lstPara)
-                        {
-                            if (item.StartsWith("@"))
-                            {
-                                command.Parameters.AddWithValue(item, para[i]);
-                                i++;
-                            }
-                        }
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddRange(parameters);
                     }
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
                     adapter.Fill(data);
@@ -63,13 +52,14 @@ namespace DAO
                 Console.WriteLine("Message: " + ex.Message);
                 Console.WriteLine("Detail: " + ex.StackTrace);
             }
+
             return data;
         }
 
         //ExecuteNonQuery is basically used for operations where there is
         //nothing returned from the SQL Query or Stored Procedure.
         //Preferred use will be for INSERT, UPDATE and DELETE Operations.
-        public bool ExecuteNonQuery(string query)
+        public bool ExecuteNonQuery(string query, params SqlParameter[] parameters)
         {
             try
             {
@@ -77,9 +67,14 @@ namespace DAO
                 {
                     connection.Open();
                     SqlCommand command = new SqlCommand(query, connection);
-                    command.ExecuteNonQuery();
+                    if (parameters.Length >0)
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddRange(parameters);
+                    }
+                    int msgCode= command.ExecuteNonQuery();
                     connection.Close();
-                    return true;
+                    return msgCode >-1;
                 }
             }
             catch(Exception ex)

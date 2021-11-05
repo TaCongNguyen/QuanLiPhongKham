@@ -14,7 +14,7 @@ namespace DAO
     {
 
         // khoi tao bien ket noi
-        static SqlConnection Con;
+        //static SqlConnection Con;
         //Load benhnhan
         //public static List<BENHNHAN> LoadBenhNhan()
         //{
