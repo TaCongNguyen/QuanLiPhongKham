@@ -67,7 +67,7 @@ namespace DAO
         public List<NHANVIEN> LoadNHANVIEN()
         {
             string query = "select * from NHANVIEN where TrangThai = '1'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             
@@ -115,7 +115,7 @@ namespace DAO
         public static DataTable BangKiemTraTonTai(NHANVIEN bnDTO)
         {
             string query = string.Format("SELECT MaNV from NHANVIEN WHERE TenDangNhap =N'{0}' AND TrangThai = '1'", bnDTO.TenDangNhap1);
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             return dt.Rows.Count > 0 ? dt : null;
         }
 
@@ -149,7 +149,7 @@ namespace DAO
         public bool KiemTraTonTai(NHANVIEN bnDTO)
         {
             string query= string.Format("SELECT MaNV from NHANVIEN WHERE TenDangNhap =N'{0}'  AND TrangThai = '1'", bnDTO.TenDangNhap1); // MaBN tu dong tang
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public bool ThemNHANVIEN(NHANVIEN bnDTO)
@@ -183,7 +183,7 @@ namespace DAO
         public bool ThemNHANVIEN(NHANVIEN bnDTO)
         {
             string query = string.Format("insert into NHANVIEN values (N'{0}', N'{1}', N'{2}', '{3}', '1')", bnDTO.TenNV1, bnDTO.TenDangNhap1, bnDTO.Matkhau1, bnDTO.LoaiNV1); // MaBN tu dong tang
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         // sua benh nhan
@@ -214,7 +214,7 @@ namespace DAO
         public bool SuaNHANVIEN(NHANVIEN bnDTO)
         {
             string query = string.Format("update NHANVIEN set TenNV = N'{0}', TenDangNhap = N'{1}', MatKhau = N'{2}' , LoaiNV = '{3}'  where MaNV= N'{4}'", bnDTO.TenNV1, bnDTO.TenDangNhap1, bnDTO.Matkhau1, bnDTO.LoaiNV1, bnDTO.MaNV1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         // xoa benh nhan
@@ -235,7 +235,7 @@ namespace DAO
         public DataTable TaoBang(NHANVIEN bnDTO)
         {
             string query = string.Format("SELECT MaPK from PHIEUKHAM, NHANVIEN WHERE NHANVIEN.MaNV = PHIEUKHAM.MaNV and TenDangNhap = N'{0}'", bnDTO.TenDangNhap1);
-            return DataProvider_.Instance.ExecuteQuery(query);
+            return DataProvider.Instance.ExecuteQuery(query);
         }
 
         //public bool XoaCTTT(int x)
@@ -266,7 +266,7 @@ namespace DAO
         public bool XoaCTTT(int x)
         {
             string query = string.Format("update CTTT set TrangThai ='0'  where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public bool XoaHoaDon(int x)
@@ -298,7 +298,7 @@ namespace DAO
         public bool XoaHoaDon(int x)
         {
             string query = string.Format("update HOADON set TrangThai ='0' where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public bool XoaPhieKham(int x)
@@ -329,7 +329,7 @@ namespace DAO
         public bool XoaPhieKham(int x)
         {
             string query = string.Format("update PHIEUKHAM set TrangThai = '0' where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public void DuyetBang(DataTable dt)
@@ -412,7 +412,7 @@ namespace DAO
             if (dt != null)
                 DuyetBang(dt);
             string query = string.Format("update NHANVIEN set TrangThai = '0'  where MaNV= N'{0}'", bnDTO.MaNV1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
     }
 }

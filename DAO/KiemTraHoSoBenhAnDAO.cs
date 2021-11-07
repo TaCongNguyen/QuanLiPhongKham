@@ -51,7 +51,7 @@ namespace DAO
         public List<KiemTraHoSoBenhAnDTO> XuatLichSuKham(KiemTraHoSoBenhAnDTO a)
         {
             string query = "select MaPK, NgayKham from PHIEUKHAM where TrangThai = '1' and MaBN = '" + a.Mabn + "' order by NgayKham desc";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<KiemTraHoSoBenhAnDTO> lst = new List<KiemTraHoSoBenhAnDTO>();
@@ -87,7 +87,7 @@ namespace DAO
         public KiemTraHoSoBenhAnDTO XuatCTPK(KiemTraHoSoBenhAnDTO a)
         {
             string query = "select PHIEUKHAM.NgayKham, BENHNHAN.TenBN, BENHNHAN.NgaySinh, BENHNHAN.GioiTinh, NHANVIEN.TenNV, PHIEUKHAM.TrieuChung, PHIEUKHAM.KetQua from PHIEUKHAM, BENHNHAN, NHANVIEN where PHIEUKHAM.MaBN = BENHNHAN.MaBN and PHIEUKHAM.MaNV = NHANVIEN.MaNV and PHIEUKHAM.MaPK = '" + a.Mapk + "'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             KiemTraHoSoBenhAnDTO dto = new KiemTraHoSoBenhAnDTO();
@@ -128,7 +128,7 @@ namespace DAO
         public List<KiemTraHoSoBenhAnDTO> XuatCTTT(KiemTraHoSoBenhAnDTO a)
         {
             string query = "select CTTT.TenThuoc, CTTT.SoLuong, THUOC.DonViTinh, CTTT.DonGia, CTTT.CachDung from CTTT, THUOC where CTTT.TenThuoc = THUOC.TenThuoc and CTTT.TrangThai = '1' and CTTT.MaPK = '" + a.Mapk + "'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<KiemTraHoSoBenhAnDTO> lst = new List<KiemTraHoSoBenhAnDTO>();

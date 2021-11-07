@@ -51,7 +51,7 @@ namespace DAO
         public static List<BENHNHAN> LoadBenhNhan()
         {
             string query = "select * from BENHNHAN where TrangThai = '1'";
-            DataTable dt= DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt= DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<BENHNHAN> listbn = new List<BENHNHAN>();
@@ -88,7 +88,7 @@ namespace DAO
         {
             // string sTruyVan = string.Format("SELECT MaBN from BENHNHAN WHERE TrangThai = '1' and (NgaySinh = N'{1}' and (DienThoai = '{2}' and GioiTinh = N'{3}'))", bnDTO.TenBN1, bnDTO.NgaySinh1, bnDTO.DienThoai1, bnDTO.GioiTinh1); // MaBN tu dong tang
             string query = $"SELECT * from BENHNHAN WHERE TrangThai = '1' and (TenBN = N'{bnDTO.TenBN1}' and DienThoai = '{bnDTO.DienThoai1}')";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             return dt.Rows.Count == 0 ? null : dt;
         }
 
@@ -120,7 +120,7 @@ namespace DAO
         {
             // MaBN tu dong tang
             string query = $"SELECT MaBN from BENHNHAN WHERE TrangThai = '1' and (TenBN like N'{bnDTO.TenBN1}') and (NgaySinh = N'{bnDTO.NgaySinh1}' and (DienThoai = '{bnDTO.DienThoai1}' and GioiTinh = N'{bnDTO.GioiTinh1}'))";
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         // Them BenhNhan
@@ -158,7 +158,7 @@ namespace DAO
             // string sTruyVan = @"insert into BENHNHAN(MaBN,TenBN) value"; -- them mot vai thanh phan vao bang
             /* string sTruyVan = string.Format("insert into BENHNHAN values ('{0}',N'{1}','{2}',N'{3}',{4},N'{5}')", bnDTO.MaBN1, bnDTO.TenBN1, bnDTO.NgaySinh1, bnDTO.DiaChi1, bnDTO.DienThoai1, bnDTO.GioiTinh1);*/// them day du thong tin cua bang
             string query = string.Format("insert into BENHNHAN values (N'{0}',N'{1}',N'{2}','{3}',N'{4}', '1')", bnDTO.TenBN1, bnDTO.NgaySinh1, bnDTO.DiaChi1, bnDTO.DienThoai1, bnDTO.GioiTinh1); // MaBN tu dong tang
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
 
@@ -190,7 +190,7 @@ namespace DAO
         public static bool SuaBenhNhan(BENHNHAN bnDTO)
         {
             string query = string.Format("update BENHNHAN set TenBN = N'{0}', NgaySinh=N'{1}', DiaChi=N'{2}', DienThoai='{3}', GioiTinh=N'{4}' where MaBN={5}", bnDTO.TenBN1, bnDTO.NgaySinh1, bnDTO.DiaChi1, bnDTO.DienThoai1, bnDTO.GioiTinh1, bnDTO.MaBN1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         // xoa benh nhan
@@ -223,7 +223,7 @@ namespace DAO
         public static bool XoaBenhNhan(BENHNHAN bnDTO)
         {
             string query = string.Format("update BENHNHAN set TrangThai = '0' where MaBN ='{0}'", bnDTO.MaBN1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //
@@ -258,7 +258,7 @@ namespace DAO
 
             // string query = string.Format("select PHIEUKHAM.MaPK from BENHNHAN , PHIEUKHAM  where BENHNHAN.MaBN = PHIEUKHAM.MaBN and BENHNHAN.MaBN =N'{0}'", bnDTO.MaBN1);
             string query = string.Format("select PHIEUKHAM.MaPK from PHIEUKHAM  where  PHIEUKHAM.MaBN =N'{0}'", bnDTO.MaBN1);
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             return dt.Rows.Count == 0 ? null : dt;
             
         }
@@ -292,7 +292,7 @@ namespace DAO
         public static bool XoaCTTT(int x)
         {
             string query = string.Format("update CTTT set TrangThai = '0' where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public static  bool XoaHoaDon(int x)
@@ -324,7 +324,7 @@ namespace DAO
         public static bool XoaHoaDon(int x)
         {
             string query = string.Format("update HOADON set TrangThai = '0' where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
 
@@ -357,7 +357,7 @@ namespace DAO
         public static bool XoaPhieKham(int x)
         {
             string query = string.Format("update PHIEUKHAM set TrangThai ='0' where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public static void DuyetBang(DataTable dt)
@@ -452,7 +452,7 @@ namespace DAO
             if (dt != null)
                 DuyetBang(dt);
             string query = string.Format("update BENHNHAN set TrangThai = '0' where MaBN ='{0}'", bnDTO.MaBN1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
     }
 }

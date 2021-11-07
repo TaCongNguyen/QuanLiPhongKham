@@ -48,7 +48,7 @@ namespace DAO
             username.Value =TenDangNhap;
             SqlParameter password = new SqlParameter("@MatKhau", SqlDbType.NVarChar);
             password.Value = MatKhau;
-            return DataProvider_.Instance.ExecuteQuery(spName,username,password).Rows.Count>0;
+            return DataProvider.Instance.ExecuteQuery(spName,username,password).Rows.Count>0;
         }
 
         //static SqlConnection Con;
@@ -85,7 +85,7 @@ namespace DAO
         public List<NHANVIEN> LoadNHANVIEN()
         {
             string query = "select * from NHANVIEN where TrangThai = '1'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<NHANVIEN> listNV = new List<NHANVIEN>();
@@ -136,7 +136,7 @@ namespace DAO
         public List<NHANVIEN> LoadNHANVIENThamGiaKhamBenh()
         {
             string query = "select * from NHANVIEN where TrangThai = '1' and LoaiNV ='2'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<NHANVIEN> listNV = new List<NHANVIEN>();
@@ -190,7 +190,7 @@ namespace DAO
         public List<NHANVIEN> LoadNHANVIENCanTim(int Ma)
         {
             string query = string.Format("select * from NHANVIEN where MaNV = {0} and (TrangThai = '1' and LoaiNV ='2') ", Ma);
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<NHANVIEN> listNV = new List<NHANVIEN>();
@@ -232,7 +232,7 @@ namespace DAO
 
         public NHANVIEN LayThongTinNhanVien(int MaNV)
         {
-            DataTable dt = DataProvider_.Instance.ExecuteQuery("Select * from NHANVIEN where MaNV = 'MaNV')");
+            DataTable dt = DataProvider.Instance.ExecuteQuery("Select * from NHANVIEN where MaNV = 'MaNV')");
             if (dt.Rows.Count == 0)
                 return null;
 
@@ -267,7 +267,7 @@ namespace DAO
 
         public NHANVIEN GetAccountByUserName(string userName)
         {
-            DataTable dt = DataProvider_.Instance.ExecuteQuery("Select * from NHANVIEN where TenDangNhap = '" + userName + "'");
+            DataTable dt = DataProvider.Instance.ExecuteQuery("Select * from NHANVIEN where TenDangNhap = '" + userName + "'");
             if (dt.Rows.Count == 0)
                 return null;
 
@@ -305,7 +305,7 @@ namespace DAO
             mk.Value = matkhau;
             SqlParameter mkNew = new SqlParameter("@MKMoi", SqlDbType.NVarChar);
             mkNew.Value = matkhaumoi;
-            return DataProvider_.Instance.ExecuteNonQuery(spName, maNV, hoTen, tenDN, mk, mkNew);
+            return DataProvider.Instance.ExecuteNonQuery(spName, maNV, hoTen, tenDN, mk, mkNew);
         }
 
     }

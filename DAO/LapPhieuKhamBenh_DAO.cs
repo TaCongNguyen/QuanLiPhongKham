@@ -12,7 +12,7 @@ namespace DAO
     public class LapPhieuKhamBenh_DAO
     {
         // khoi tao bien ket noi
-        static SqlConnection Con;
+        //static SqlConnection Con;
         //Load PHIEUKHAM
 
         //public static List<PHIEUKHAM> LoadPhieuKham()
@@ -48,7 +48,7 @@ namespace DAO
         public static List<PHIEUKHAM> LoadPhieuKham()
         {
             string query = "select * from PHIEUKHAM WHERE TrangThai = '1'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<PHIEUKHAM> listbn = new List<PHIEUKHAM>();
@@ -96,7 +96,7 @@ namespace DAO
         public static bool ThemPHIEUKHAM(PHIEUKHAM bnDTO)
         {
             string query = string.Format("insert into PHIEUKHAM values ('{0}','{1}',N'{2}',N'{3}',N'{4}', '1')", bnDTO.MaNV1, bnDTO.MaBN1, bnDTO.NgayKham1, bnDTO.TrieuChung1, bnDTO.KetQua1);// them day du thong tin cua bang
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         // Sua PHIEUKHAM
@@ -129,7 +129,7 @@ namespace DAO
         public static bool SuaPHIEUKHAM(PHIEUKHAM pkDTO)
         {
             string query = string.Format("update PHIEUKHAM set MaNV=N'{0}' , MaBN=N'{1}' , NgayKham=N'{2}' , TrieuChung=N'{3}'  where MaPK='{4}'", pkDTO.MaNV1, pkDTO.MaBN1, pkDTO.NgayKham1, pkDTO.TrieuChung1, pkDTO.MaPK1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         // Xoa PHIEUKHAM
@@ -188,7 +188,7 @@ namespace DAO
         public static bool XoaCTTT(int x)
         {
             string query = string.Format("update CTTT set TrangThai = '0' where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
 
@@ -221,7 +221,7 @@ namespace DAO
         public static bool XoaHoaDon(int x)
         {
             string query = string.Format("update HOADON set TrangThai = '1' where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
         //public static bool XoaPK(int x)
         //{
@@ -251,7 +251,7 @@ namespace DAO
         public static bool XoaPK(int x)
         {
             string query = string.Format("update PHIEUKHAM set TrangThai ='0' where MaPK ='{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public static void DuyetBang(DataTable dt)

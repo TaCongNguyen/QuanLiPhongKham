@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    public class DataProvider_
+    public class DataProvider
     {
         private string connectionString = ConfigurationManager.AppSettings["ConnectionString"];
 
-        private static DataProvider_ instance;
-        public static DataProvider_ Instance
+        private static DataProvider instance;
+        public static DataProvider Instance
         {
             get
             {
                 if (instance == null)
-                    instance = new DataProvider_();
+                    instance = new DataProvider();
                 return instance;
             }
         }

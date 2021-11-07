@@ -46,7 +46,7 @@ namespace DAO
         public static List<CTTT> LoadCTTT(int MaPK)
         {
             string query = string.Format("select * from CTTT WHERE MaPK ='{0}'", MaPK);
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<CTTT> listbn = new List<CTTT>();
@@ -89,7 +89,7 @@ namespace DAO
         public static bool ThemVaoCTTT(CTTT DTO)
         {
             string query = string.Format("insert into CTTT values ('{0}','{1}','{2}','{3}',N'{4}')", DTO.MaPK1, DTO.MaPK1, DTO.SoLuong1, DTO.DonGia1, DTO.CachDung1); // MaBN tu dong tang
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public static bool ThemKetQuaVaoPhieuKham(PHIEUKHAM DTO)
@@ -119,7 +119,7 @@ namespace DAO
         public static bool ThemKetQuaVaoPhieuKham(PHIEUKHAM DTO)
         {
             string query = string.Format("update PHIEUKHAM set KetQua = N'{0}' where MaPK={1}", DTO.KetQua1, DTO.MaPK1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
 

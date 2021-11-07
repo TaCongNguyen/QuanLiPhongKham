@@ -49,7 +49,7 @@ namespace DAO
         public static List<THUOC> LoadTHUOC()
         {
             string query = "select * from THUOC where TrangThai = '1'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<THUOC> listbn = new List<THUOC>();
@@ -103,9 +103,9 @@ namespace DAO
         public static bool KiemTraTonTai(THUOC bnDTO)
         {
             string query = string.Format("SELECT * from THUOC WHERE TrangThai = '1' and TenThuoc = N{0}", bnDTO.TenThuoc1); // MaBN tu dong tang
-            if (DataProvider_.Instance.ExecuteNonQuery(query))
+            if (DataProvider.Instance.ExecuteNonQuery(query))
             {
-                var dt = DataProvider_.Instance.ExecuteQuery(query);
+                var dt = DataProvider.Instance.ExecuteQuery(query);
                 return dt.Rows.Count > 0;
             }
             return false;
@@ -143,7 +143,7 @@ namespace DAO
         public static bool ThemTHUOC(THUOC bnDTO)
         {
             string query = string.Format("insert into THUOC values (N'{0}',N'{1}','{2}', '1')", bnDTO.TenThuoc1, bnDTO.DonViTinh1, bnDTO.Gia1, bnDTO.TrangThai1);// them day du thong tin cua bang
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         // sua thuoc
@@ -172,7 +172,7 @@ namespace DAO
         public static bool SuaTHUOC(THUOC bnDTO)
         {
             string query = string.Format("update THUOC set  DonViTinh=N'{0}', Gia={1} where TenThuoc='{2}'", bnDTO.DonViTinh1, bnDTO.Gia1, bnDTO.TenThuoc1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         // xoa thuoc
@@ -203,7 +203,7 @@ namespace DAO
         public static bool XoaCTTT(string x)
         {
             string query = string.Format("update CTTT set TrangThai = '0' where TenThuoc =N'{0}'", x);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public static DataTable TaoBang(THUOC thuoc)
@@ -226,7 +226,7 @@ namespace DAO
         public static DataTable TaoBang(THUOC thuoc)
         {
             string query = string.Format("select * from CTTT  where  TenThuoc =N'{0}'", thuoc.TenThuoc1);
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             return dt.Rows.Count > 0 ? dt : null;
         }
 
@@ -294,7 +294,7 @@ namespace DAO
             if (dt != null)
                 DuyetBang(dt);
             string query = string.Format("update THUOC set TrangThai = '0' where TenThuoc =N'{0}'", bnDTO.TenThuoc1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
     }
 }

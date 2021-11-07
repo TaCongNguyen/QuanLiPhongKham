@@ -75,7 +75,7 @@ namespace DAO
         public bool KtMaPK(GhiKQVaoPKDTO a)
         {
             string query = "select MaPK from PHIEUKHAM where MaPK = '" + a.Mapk + "' and TrangThai = '1'";
-            var dt = DataProvider_.Instance.ExecuteQuery(query);
+            var dt = DataProvider.Instance.ExecuteQuery(query);
             return dt.Rows.Count == 1;
         }
 
@@ -109,7 +109,7 @@ namespace DAO
         public bool updateKetQua(GhiKQVaoPKDTO a)
         {
             string query = "update PHIEUKHAM set KetQua = N'" + a.Ketqua + "' where MaPK ='" + a.Mapk + "'";
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public List<GhiKQVaoPKDTO> loadTenThuoc()
@@ -142,7 +142,7 @@ namespace DAO
         public List<GhiKQVaoPKDTO> loadTenThuoc()
         {
             string query = "select TenThuoc from THUOC";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<GhiKQVaoPKDTO> lstDto = new List<GhiKQVaoPKDTO>();
@@ -192,7 +192,7 @@ namespace DAO
         public static List<GhiKQVaoPKDTO> LoadCTTT(GhiKQVaoPKDTO a)
         {
             string query = " select CTTT.TenThuoc, CTTT.SoLuong, THUOC.DonViTinh, CTTT.CachDung from CTTT, THUOC where CTTT.TenThuoc = THUOC.TenThuoc and CTTT.TrangThai = '1' and CTTT.MaPK = '" + a.Mapk + "'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<GhiKQVaoPKDTO> listgkqdto = new List<GhiKQVaoPKDTO>();
@@ -237,7 +237,7 @@ namespace DAO
         public static bool ThemCTTT(GhiKQVaoPKDTO gkqDTO)
         {
             string query = string.Format("INSERT INTO CTTT (MaPK, TenThuoc, SoLuong, DonGia, CachDung, TrangThai)	 VALUES('{0}',N'{1}','{2}','{3}', N'{4}', '1')", gkqDTO.Mapk, gkqDTO.Tenthuoc, gkqDTO.Soluong, gkqDTO.Dongia, gkqDTO.Cachdung, gkqDTO.Trangthai);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public GhiKQVaoPKDTO LayGiaThuoc(GhiKQVaoPKDTO a)
@@ -269,7 +269,7 @@ namespace DAO
         public GhiKQVaoPKDTO LayGiaThuoc(GhiKQVaoPKDTO a)
         {
             string query = " select Gia from THUOC where TenThuoc = N'" + a.Tenthuoc + "'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 1)
             {
                 GhiKQVaoPKDTO gkqdto = new GhiKQVaoPKDTO();
@@ -307,7 +307,7 @@ namespace DAO
         public static bool SuaCTTT(GhiKQVaoPKDTO LayDTO, GhiKQVaoPKDTO SuaDTO)
         {
             string query = string.Format("update CTTT set TenThuoc= N'{0}', SoLuong='{1}', DonGia ={2},  CachDung=N'{3}' where MaPK='{4}' and TenThuoc=N'{5}' ", SuaDTO.Tenthuoc, SuaDTO.Soluong, SuaDTO.Dongia, SuaDTO.Cachdung, LayDTO.Mapk, LayDTO.Tenthuoc);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public static bool SuaCTTTDaTonTai(GhiKQVaoPKDTO SuaDTO)
@@ -336,7 +336,7 @@ namespace DAO
         public static bool SuaCTTTDaTonTai(GhiKQVaoPKDTO SuaDTO)
         {
             string query = string.Format("update CTTT set TenThuoc= N'{0}', SoLuong='{1}', DonGia ={2},  CachDung=N'{3}', TrangThai = '1' where MaPK='{4}' and TenThuoc=N'{5}' ", SuaDTO.Tenthuoc, SuaDTO.Soluong, SuaDTO.Dongia, SuaDTO.Cachdung, SuaDTO.Mapk, SuaDTO.Tenthuoc);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
         //public static bool XoaCTTT(GhiKQVaoPKDTO a)
@@ -365,7 +365,7 @@ namespace DAO
         public static bool XoaCTTT(GhiKQVaoPKDTO a)
         {
             string query = string.Format("update CTTT set TrangThai = '0' where MaPK='{0}' and TenThuoc=N'{1}' ", a.Mapk, a.Tenthuoc);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
 
 
@@ -392,7 +392,7 @@ namespace DAO
         public KiemTraHoSoBenhAnDTO XuatCTPK(KiemTraHoSoBenhAnDTO a)
         {
             string query = "select PHIEUKHAM.NgayKham, BENHNHAN.TenBN, BENHNHAN.NgaySinh, BENHNHAN.GioiTinh, NHANVIEN.TenNV, PHIEUKHAM.TrieuChung, PHIEUKHAM.KetQua from PHIEUKHAM, BENHNHAN, NHANVIEN where PHIEUKHAM.MaBN = BENHNHAN.MaBN and PHIEUKHAM.MaNV = NHANVIEN.MaNV and PHIEUKHAM.MaPK = '" + a.Mapk + "'";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             DataRow row = dt.Rows[0];

@@ -49,7 +49,7 @@ namespace DAO
         {
             float GiaCu = 0;
             string query = "select TienKham from QUIDINH";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if(dt.Rows.Count>0)
                 GiaCu = float.Parse(dt.Rows[0]["TienKham"].ToString());
             return GiaCu;
@@ -80,7 +80,7 @@ namespace DAO
         public static bool Sua(float TienKham)
         {
             string query = string.Format("update QUIDINH set TienKham = N'{0}'", TienKham);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
     }
 }

@@ -47,30 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataProvider.cs" />
-    <Compile Include="Old\DataProvider.cs" />
-    <Compile Include="Old\GhiKQVaoPKDAO.cs" />
-    <Compile Include="Old\LapHoaDonDAO.cs" />
-    <Compile Include="Old\NHANVIEN_DAO.cs" />
-    <Compile Include="Old\BenhNhanDAO.cs" />
-    <Compile Include="Old\CTTT_DAO.cs" />
-    <Compile Include="Old\DataPro.cs" />
-    <Compile Include="Old\DataProvider_0.cs" />
-    <Compile Include="Old\DataProvider_1.cs" />
-    <Compile Include="Old\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Old\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Old\KeToaThuoc_DAO.cs" />
-    <Compile Include="Old\KiemTraHoSoBenhAnDAO.cs" />
-    <Compile Include="Old\LapPhieuKhamBenh_DAO.cs" />
+    <Compile Include="DataConnection\DataProvider.cs" />
+    <Compile Include="GhiKQVaoPKDAO.cs" />
+    <Compile Include="LapHoaDonDAO.cs" />
+    <Compile Include="NHANVIEN_DAO.cs" />
+    <Compile Include="BenhNhanDAO.cs" />
+    <Compile Include="CTTT_DAO.cs" />
+    <Compile Include="KeToaThuoc_DAO.cs" />
+    <Compile Include="KiemTraHoSoBenhAnDAO.cs" />
+    <Compile Include="LapPhieuKhamBenh_DAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Old\QuanLyThongTinNhanVien_DAO.cs" />
-    <Compile Include="Old\QuyDinhTienKhamDAO.cs" />
-    <Compile Include="Old\THUOC_DAO.cs" />
+    <Compile Include="QuanLyThongTinNhanVien_DAO.cs" />
+    <Compile Include="QuyDinhTienKhamDAO.cs" />
+    <Compile Include="THUOC_DAO.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

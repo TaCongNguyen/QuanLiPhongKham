@@ -46,7 +46,7 @@ namespace DAO
         public static List<CTTT> LoadCTTT()
         {
             string query = "select * from CTTT";
-            DataTable dt = DataProvider_.Instance.ExecuteQuery(query);
+            DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             if (dt.Rows.Count == 0)
                 return null;
             List<CTTT> listb = new List<CTTT>();
@@ -90,7 +90,7 @@ namespace DAO
         public static bool XoaCTTT(CTTT CTTTDTO)
         {
             string query = string.Format("delete from CTTT where MaBN ='{0}'", CTTTDTO.MaPK1);
-            return DataProvider_.Instance.ExecuteNonQuery(query);
+            return DataProvider.Instance.ExecuteNonQuery(query);
         }
     }
 }
