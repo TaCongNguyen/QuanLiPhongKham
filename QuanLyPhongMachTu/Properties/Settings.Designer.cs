@@ -27,7 +27,7 @@ namespace QuanLyPhongMachTu.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-0NOLEUT\\CONGNGUYEN;Initial Catalog=QLKB;Integrated Security=T" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-AST8HA7\\NGUYEN;Initial Catalog=QLKB;Integrated Security=T" +
             "rue")]
         public string QLKBConnectionString {
             get {

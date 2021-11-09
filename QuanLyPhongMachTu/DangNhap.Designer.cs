@@ -133,7 +133,7 @@ namespace QuanLyPhongMachTu
             this.txb_MatKhau.Name = "txb_MatKhau";
             this.txb_MatKhau.Size = new System.Drawing.Size(305, 26);
             this.txb_MatKhau.TabIndex = 2;
-            this.txb_MatKhau.Text = "123";
+            this.txb_MatKhau.Text = "1234";
             this.txb_MatKhau.UseSystemPasswordChar = true;
             // 
             // label3
@@ -144,7 +144,7 @@ namespace QuanLyPhongMachTu
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 22);
             this.label3.TabIndex = 0;
-            this.label3.Text = "(123)";
+            this.label3.Text = "(1234)";
             // 
             // lb_MatKhau
             // 
@@ -174,7 +174,7 @@ namespace QuanLyPhongMachTu
             this.txb_TenDangNhap.Name = "txb_TenDangNhap";
             this.txb_TenDangNhap.Size = new System.Drawing.Size(305, 26);
             this.txb_TenDangNhap.TabIndex = 1;
-            this.txb_TenDangNhap.Text = "nguyenthi";
+            this.txb_TenDangNhap.Text = "admin";
             // 
             // label2
             // 
