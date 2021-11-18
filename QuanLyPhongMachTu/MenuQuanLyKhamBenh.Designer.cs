@@ -41,7 +41,7 @@
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
-            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button1.BackColor = System.Drawing.Color.PaleGreen;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
@@ -52,7 +52,7 @@
             // button2
             // 
             resources.ApplyResources(this.button2, "button2");
-            this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button2.BackColor = System.Drawing.Color.PaleGreen;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
@@ -63,7 +63,7 @@
             // button3
             // 
             resources.ApplyResources(this.button3, "button3");
-            this.button3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button3.BackColor = System.Drawing.Color.PaleGreen;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
@@ -74,7 +74,7 @@
             // button4
             // 
             resources.ApplyResources(this.button4, "button4");
-            this.button4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button4.BackColor = System.Drawing.Color.PaleGreen;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
@@ -85,13 +85,13 @@
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
-            this.label1.ForeColor = System.Drawing.Color.DarkRed;
+            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
             this.label1.Name = "label1";
             // 
             // button6
             // 
             resources.ApplyResources(this.button6, "button6");
-            this.button6.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button6.BackColor = System.Drawing.Color.PaleGreen;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
@@ -102,7 +102,7 @@
             // button7
             // 
             resources.ApplyResources(this.button7, "button7");
-            this.button7.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button7.BackColor = System.Drawing.Color.PaleGreen;
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;

@@ -62,5 +62,15 @@ namespace QuanLyPhongMachTu
             Form_Chinh f = new Form_Chinh();
             f.ShowDialog();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txb_GiaCu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

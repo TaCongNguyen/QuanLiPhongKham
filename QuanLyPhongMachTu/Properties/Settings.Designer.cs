@@ -8,29 +8,47 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuanLyPhongMachTu.Properties {
-    
-    
+namespace QuanLyPhongMachTu.Properties
+{
+
+
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.7.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
+    {
+
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-        
-        public static Settings Default {
-            get {
+
+        public static Settings Default
+        {
+            get
+            {
                 return defaultInstance;
             }
         }
-        
-                
+
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-R6C5BS9;Initial Catalog=Quanlikhambenh;Integrated Security=Tr" +
+            "ue")]
+        public string QuanlikhambenhConnectionString
+        {
+            get
+            {
+                return ((string)(this["QuanlikhambenhConnectionString"]));
+            }
+        }
+
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-AST8HA7\\NGUYEN;Initial Catalog=QLKB;Integrated Security=T" +
             "rue")]
-        public string QLKBConnectionString {
-            get {
+        public string QLKBConnectionString
+        {
+            get
+            {
                 return ((string)(this["QLKBConnectionString"]));
             }
         }

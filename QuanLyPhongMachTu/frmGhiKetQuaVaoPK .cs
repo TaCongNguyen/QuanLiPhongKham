@@ -361,5 +361,30 @@ namespace QuanLyPhongMachTu
             }
             catch { return; }
         }
+
+        private void txtKetQua_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTenThuoc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSoLuong_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblKetQua_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblXemCTPK_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

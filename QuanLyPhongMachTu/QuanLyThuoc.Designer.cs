@@ -58,92 +58,104 @@
             this.panel1.Controls.Add(this.lb_Gia);
             this.panel1.Controls.Add(this.lb_DonViTinh);
             this.panel1.Controls.Add(this.lb_TenThuoc);
-            this.panel1.Location = new System.Drawing.Point(14, 37);
+            this.panel1.Location = new System.Drawing.Point(30, 97);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(384, 250);
+            this.panel1.Size = new System.Drawing.Size(576, 413);
             this.panel1.TabIndex = 0;
             // 
             // cbb_DVT
             // 
+            this.cbb_DVT.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_DVT.FormattingEnabled = true;
             this.cbb_DVT.Items.AddRange(new object[] {
             "Viên",
             "Hộp",
             "Vỉ",
             "Chai"});
-            this.cbb_DVT.Location = new System.Drawing.Point(221, 143);
+            this.cbb_DVT.Location = new System.Drawing.Point(332, 220);
+            this.cbb_DVT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbb_DVT.Name = "cbb_DVT";
-            this.cbb_DVT.Size = new System.Drawing.Size(100, 21);
+            this.cbb_DVT.Size = new System.Drawing.Size(148, 27);
             this.cbb_DVT.TabIndex = 2;
             this.cbb_DVT.Text = "Viên";
             // 
             // txb_Gia
             // 
-            this.txb_Gia.Location = new System.Drawing.Point(221, 212);
+            this.txb_Gia.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_Gia.Location = new System.Drawing.Point(332, 326);
+            this.txb_Gia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_Gia.Name = "txb_Gia";
-            this.txb_Gia.Size = new System.Drawing.Size(100, 20);
+            this.txb_Gia.Size = new System.Drawing.Size(148, 26);
             this.txb_Gia.TabIndex = 0;
             // 
             // txb_TenThuoc
             // 
-            this.txb_TenThuoc.Location = new System.Drawing.Point(221, 74);
+            this.txb_TenThuoc.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb_TenThuoc.Location = new System.Drawing.Point(332, 114);
+            this.txb_TenThuoc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_TenThuoc.Name = "txb_TenThuoc";
-            this.txb_TenThuoc.Size = new System.Drawing.Size(100, 20);
+            this.txb_TenThuoc.Size = new System.Drawing.Size(148, 26);
             this.txb_TenThuoc.TabIndex = 0;
             // 
             // lb_Gia
             // 
             this.lb_Gia.AutoSize = true;
-            this.lb_Gia.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Gia.Location = new System.Drawing.Point(44, 211);
+            this.lb_Gia.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Gia.Location = new System.Drawing.Point(66, 325);
+            this.lb_Gia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_Gia.Name = "lb_Gia";
-            this.lb_Gia.Size = new System.Drawing.Size(36, 18);
+            this.lb_Gia.Size = new System.Drawing.Size(49, 28);
             this.lb_Gia.TabIndex = 1;
             this.lb_Gia.Text = "Giá";
             // 
             // lb_DonViTinh
             // 
             this.lb_DonViTinh.AutoSize = true;
-            this.lb_DonViTinh.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_DonViTinh.Location = new System.Drawing.Point(44, 142);
+            this.lb_DonViTinh.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_DonViTinh.Location = new System.Drawing.Point(66, 218);
+            this.lb_DonViTinh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_DonViTinh.Name = "lb_DonViTinh";
-            this.lb_DonViTinh.Size = new System.Drawing.Size(107, 18);
+            this.lb_DonViTinh.Size = new System.Drawing.Size(143, 28);
             this.lb_DonViTinh.TabIndex = 1;
             this.lb_DonViTinh.Text = "Đơn Vị Tính";
             // 
             // lb_TenThuoc
             // 
             this.lb_TenThuoc.AutoSize = true;
-            this.lb_TenThuoc.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_TenThuoc.Location = new System.Drawing.Point(44, 73);
+            this.lb_TenThuoc.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_TenThuoc.Location = new System.Drawing.Point(66, 112);
+            this.lb_TenThuoc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_TenThuoc.Name = "lb_TenThuoc";
-            this.lb_TenThuoc.Size = new System.Drawing.Size(101, 18);
+            this.lb_TenThuoc.Size = new System.Drawing.Size(126, 28);
             this.lb_TenThuoc.TabIndex = 1;
             this.lb_TenThuoc.Text = "Tên Thuốc";
             // 
             // lb_QuanLyThuoc
             // 
             this.lb_QuanLyThuoc.AutoSize = true;
-            this.lb_QuanLyThuoc.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_QuanLyThuoc.ForeColor = System.Drawing.Color.DarkRed;
-            this.lb_QuanLyThuoc.Location = new System.Drawing.Point(400, 9);
+            this.lb_QuanLyThuoc.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_QuanLyThuoc.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lb_QuanLyThuoc.Location = new System.Drawing.Point(600, 14);
+            this.lb_QuanLyThuoc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_QuanLyThuoc.Name = "lb_QuanLyThuoc";
-            this.lb_QuanLyThuoc.Size = new System.Drawing.Size(185, 25);
+            this.lb_QuanLyThuoc.Size = new System.Drawing.Size(260, 42);
             this.lb_QuanLyThuoc.TabIndex = 1;
             this.lb_QuanLyThuoc.Text = "Quản Lý Thuốc";
             // 
             // button_Sua
             // 
             this.button_Sua.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Sua.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button_Sua.BackColor = System.Drawing.Color.PaleGreen;
             this.button_Sua.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button_Sua.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button_Sua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_Sua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Sua.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Sua.Location = new System.Drawing.Point(573, 402);
+            this.button_Sua.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Sua.Location = new System.Drawing.Point(860, 618);
+            this.button_Sua.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_Sua.Name = "button_Sua";
-            this.button_Sua.Size = new System.Drawing.Size(107, 64);
+            this.button_Sua.Size = new System.Drawing.Size(160, 98);
             this.button_Sua.TabIndex = 2;
             this.button_Sua.Text = "Sửa";
             this.button_Sua.UseVisualStyleBackColor = false;
@@ -152,35 +164,38 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.dgv_Thuoc);
-            this.panel2.Location = new System.Drawing.Point(422, 63);
+            this.panel2.Location = new System.Drawing.Point(633, 97);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(549, 268);
+            this.panel2.Size = new System.Drawing.Size(824, 412);
             this.panel2.TabIndex = 3;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // dgv_Thuoc
             // 
-            this.dgv_Thuoc.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_Thuoc.BackgroundColor = System.Drawing.Color.LightGray;
             this.dgv_Thuoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_Thuoc.Location = new System.Drawing.Point(0, 3);
+            this.dgv_Thuoc.Location = new System.Drawing.Point(0, 0);
+            this.dgv_Thuoc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgv_Thuoc.Name = "dgv_Thuoc";
-            this.dgv_Thuoc.Size = new System.Drawing.Size(539, 265);
+            this.dgv_Thuoc.RowHeadersWidth = 62;
+            this.dgv_Thuoc.Size = new System.Drawing.Size(808, 413);
             this.dgv_Thuoc.TabIndex = 0;
-        //    this.dgv_Thuoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Thuoc_CellContentClick);
             this.dgv_Thuoc.Click += new System.EventHandler(this.dgv_Thuoc_Click);
             // 
             // button_Xoa
             // 
             this.button_Xoa.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Xoa.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button_Xoa.BackColor = System.Drawing.Color.PaleGreen;
             this.button_Xoa.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button_Xoa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button_Xoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_Xoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Xoa.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Xoa.Location = new System.Drawing.Point(715, 402);
+            this.button_Xoa.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Xoa.Location = new System.Drawing.Point(1072, 618);
+            this.button_Xoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_Xoa.Name = "button_Xoa";
-            this.button_Xoa.Size = new System.Drawing.Size(107, 64);
+            this.button_Xoa.Size = new System.Drawing.Size(160, 98);
             this.button_Xoa.TabIndex = 2;
             this.button_Xoa.Text = "Xóa";
             this.button_Xoa.UseVisualStyleBackColor = false;
@@ -189,15 +204,16 @@
             // button_Them
             // 
             this.button_Them.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Them.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button_Them.BackColor = System.Drawing.Color.PaleGreen;
             this.button_Them.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button_Them.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button_Them.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_Them.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Them.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Them.Location = new System.Drawing.Point(434, 402);
+            this.button_Them.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Them.Location = new System.Drawing.Point(651, 618);
+            this.button_Them.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_Them.Name = "button_Them";
-            this.button_Them.Size = new System.Drawing.Size(107, 64);
+            this.button_Them.Size = new System.Drawing.Size(160, 98);
             this.button_Them.TabIndex = 2;
             this.button_Them.Text = "Thêm";
             this.button_Them.UseVisualStyleBackColor = false;
@@ -208,9 +224,10 @@
             this.panel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(12, 324);
+            this.panel3.Location = new System.Drawing.Point(30, 526);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(188, 171);
+            this.panel3.Size = new System.Drawing.Size(281, 190);
             this.panel3.TabIndex = 4;
             // 
             // panel4
@@ -218,23 +235,25 @@
             this.panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Location = new System.Drawing.Point(230, 371);
+            this.panel4.Location = new System.Drawing.Point(337, 526);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(168, 124);
+            this.panel4.Size = new System.Drawing.Size(250, 190);
             this.panel4.TabIndex = 5;
             // 
             // button5
             // 
             this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button5.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button5.BackColor = System.Drawing.Color.PaleGreen;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(854, 402);
+            this.button5.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(1281, 618);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 64);
+            this.button5.Size = new System.Drawing.Size(160, 98);
             this.button5.TabIndex = 6;
             this.button5.Text = "Thoát";
             this.button5.UseVisualStyleBackColor = false;
@@ -242,11 +261,11 @@
             // 
             // QuanLyThuoc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(973, 520);
+            this.ClientSize = new System.Drawing.Size(1460, 800);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -256,6 +275,7 @@
             this.Controls.Add(this.button_Sua);
             this.Controls.Add(this.lb_QuanLyThuoc);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "QuanLyThuoc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

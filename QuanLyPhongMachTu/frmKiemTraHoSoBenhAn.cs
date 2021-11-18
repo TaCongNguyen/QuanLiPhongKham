@@ -185,5 +185,10 @@ namespace QuanLyPhongMachTu
         {
             this.XuatChiTiet();
         }
+
+        private void lblMaBenhNhan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
