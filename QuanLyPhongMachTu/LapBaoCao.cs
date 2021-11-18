@@ -55,5 +55,25 @@ namespace QuanLyPhongMachTu
                 f.ShowDialog();
             }
         }
+
+        private void txtNam_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtThang_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNam_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblThang_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

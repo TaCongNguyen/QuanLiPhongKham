@@ -64,7 +64,7 @@ namespace QuanLyPhongKham
             adminToolStripMenuItem.Enabled = Loai == 1;
             button_Admin.Enabled = Loai == 1;
             button_BaoCao.Enabled = Loai == 1;
-            qToolStripMenuItem.Enabled = Loai == 1;
+            
 
         }
 

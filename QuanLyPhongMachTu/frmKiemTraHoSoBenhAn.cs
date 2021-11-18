@@ -185,5 +185,40 @@ namespace QuanLyPhongMachTu
         {
             this.XuatChiTiet();
         }
+
+        private void lblMaBenhNhan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblGioiTinh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblChiTietPK_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblLichSuKhamBenh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvLichSuKhamBenh_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dtpNgaySinh_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblChuanDoan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

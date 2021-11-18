@@ -55,7 +55,9 @@
       <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -167,6 +169,12 @@
     <EmbeddedResource Include="LapBaoCao.resx">
       <DependentUpon>LapBaoCao.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LapHoaDon.resx">
+      <DependentUpon>LapHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuQuanLyKhamBenh.vi.resx">
+      <DependentUpon>MenuQuanLyKhamBenh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuyDinhTienKhamGUI.resx">
       <DependentUpon>QuyDinhTienKhamGUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -239,6 +247,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\avatar.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
