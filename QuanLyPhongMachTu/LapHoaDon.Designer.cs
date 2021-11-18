@@ -106,7 +106,7 @@
             this.dgvThongTinHoaDon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvThongTinHoaDon.Name = "dgvThongTinHoaDon";
             this.dgvThongTinHoaDon.RowHeadersWidth = 62;
-            this.dgvThongTinHoaDon.Size = new System.Drawing.Size(1185, 195);
+            this.dgvThongTinHoaDon.Size = new System.Drawing.Size(1182, 195);
             this.dgvThongTinHoaDon.TabIndex = 15;
             // 
             // Column5
@@ -445,7 +445,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1190, 786);
+            this.ClientSize = new System.Drawing.Size(1203, 786);
             this.Controls.Add(this.lblLapHoaDon);
             this.Controls.Add(this.grbThongTinChiTiet);
             this.Controls.Add(this.grbNhapThongTin);

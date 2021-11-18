@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource3 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.BAOCAOBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.QLKBDataSet = new QuanLyPhongMachTu.QLKBDataSet();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
@@ -57,15 +57,16 @@
             // 
             // reportViewer1
             // 
-            reportDataSource3.Name = "DataSet2";
-            reportDataSource3.Value = this.BAOCAOBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource3);
+            this.reportViewer1.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            reportDataSource2.Name = "DataSet2";
+            reportDataSource2.Value = this.BAOCAOBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyPhongMachTu.BaoCao.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(10, 149);
+            this.reportViewer1.Location = new System.Drawing.Point(2, 203);
             this.reportViewer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(1283, 442);
+            this.reportViewer1.Size = new System.Drawing.Size(1216, 430);
             this.reportViewer1.TabIndex = 0;
             // 
             // BAOCAOTableAdapter
@@ -133,10 +134,10 @@
             this.btnNhap.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.btnNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNhap.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNhap.Location = new System.Drawing.Point(937, 78);
+            this.btnNhap.Location = new System.Drawing.Point(867, 87);
             this.btnNhap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNhap.Name = "btnNhap";
-            this.btnNhap.Size = new System.Drawing.Size(138, 42);
+            this.btnNhap.Size = new System.Drawing.Size(156, 55);
             this.btnNhap.TabIndex = 3;
             this.btnNhap.Text = "Nhập";
             this.btnNhap.UseVisualStyleBackColor = false;
@@ -144,11 +145,12 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnThoat.BackColor = System.Drawing.Color.IndianRed;
             this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnThoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThoat.Location = new System.Drawing.Point(520, 620);
+            this.btnThoat.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.Location = new System.Drawing.Point(551, 643);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(112, 35);
@@ -163,7 +165,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnThoat;
-            this.ClientSize = new System.Drawing.Size(1154, 677);
+            this.ClientSize = new System.Drawing.Size(1222, 677);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnNhap);
             this.Controls.Add(this.txtNam);

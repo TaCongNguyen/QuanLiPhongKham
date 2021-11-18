@@ -74,10 +74,10 @@
             this.button_Xoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Xoa.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Xoa.ForeColor = System.Drawing.Color.Black;
-            this.button_Xoa.Location = new System.Drawing.Point(1023, 354);
+            this.button_Xoa.Location = new System.Drawing.Point(995, 306);
             this.button_Xoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_Xoa.Name = "button_Xoa";
-            this.button_Xoa.Size = new System.Drawing.Size(159, 106);
+            this.button_Xoa.Size = new System.Drawing.Size(133, 73);
             this.button_Xoa.TabIndex = 5;
             this.button_Xoa.Text = "Xóa";
             this.button_Xoa.UseVisualStyleBackColor = false;
@@ -93,10 +93,10 @@
             this.button_Them.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Them.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Them.ForeColor = System.Drawing.Color.Black;
-            this.button_Them.Location = new System.Drawing.Point(818, 354);
+            this.button_Them.Location = new System.Drawing.Point(819, 306);
             this.button_Them.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_Them.Name = "button_Them";
-            this.button_Them.Size = new System.Drawing.Size(159, 102);
+            this.button_Them.Size = new System.Drawing.Size(133, 69);
             this.button_Them.TabIndex = 5;
             this.button_Them.Text = "Thêm";
             this.button_Them.UseVisualStyleBackColor = false;
@@ -112,10 +112,10 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(818, 488);
+            this.button5.Location = new System.Drawing.Point(819, 440);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(159, 106);
+            this.button5.Size = new System.Drawing.Size(133, 73);
             this.button5.TabIndex = 5;
             this.button5.Text = "Sửa";
             this.button5.UseVisualStyleBackColor = false;
@@ -236,7 +236,7 @@
             // dgv_ThongTinBenhNhan
             // 
             this.dgv_ThongTinBenhNhan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_ThongTinBenhNhan.Location = new System.Drawing.Point(4, 354);
+            this.dgv_ThongTinBenhNhan.Location = new System.Drawing.Point(13, 308);
             this.dgv_ThongTinBenhNhan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgv_ThongTinBenhNhan.Name = "dgv_ThongTinBenhNhan";
             this.dgv_ThongTinBenhNhan.ReadOnly = true;
@@ -247,7 +247,7 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.dgv_ThongTinBenhNhan.RowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv_ThongTinBenhNhan.Size = new System.Drawing.Size(786, 408);
+            this.dgv_ThongTinBenhNhan.Size = new System.Drawing.Size(786, 308);
             this.dgv_ThongTinBenhNhan.TabIndex = 4;
             this.dgv_ThongTinBenhNhan.Click += new System.EventHandler(this.dgv_ThongTinBenhNhan_Click);
             // 
@@ -286,10 +286,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(818, 656);
+            this.button4.Location = new System.Drawing.Point(819, 539);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(364, 106);
+            this.button4.Size = new System.Drawing.Size(313, 77);
             this.button4.TabIndex = 5;
             this.button4.Text = "Lập Phiếu Khám Bệnh";
             this.button4.UseVisualStyleBackColor = false;
@@ -305,10 +305,10 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(1023, 488);
+            this.button6.Location = new System.Drawing.Point(995, 440);
             this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(159, 106);
+            this.button6.Size = new System.Drawing.Size(133, 73);
             this.button6.TabIndex = 5;
             this.button6.Text = "Thoát";
             this.button6.UseVisualStyleBackColor = false;
@@ -345,7 +345,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1233, 820);
+            this.ClientSize = new System.Drawing.Size(1200, 654);
             this.Controls.Add(this.rdb_Nu);
             this.Controls.Add(this.rdb_Nam);
             this.Controls.Add(this.button_Xoa);
