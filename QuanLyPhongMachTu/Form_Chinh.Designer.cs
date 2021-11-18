@@ -70,7 +70,6 @@
             this.menuStrip_MeNu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.menuStrip_MeNu.Font = new System.Drawing.Font("Constantia", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip_MeNu.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
-            this.menuStrip_MeNu.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
             this.menuStrip_MeNu.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip_MeNu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thToolStripMenuItem,
@@ -84,9 +83,8 @@
             this.toolStripMenuItem7});
             this.menuStrip_MeNu.Location = new System.Drawing.Point(0, 0);
             this.menuStrip_MeNu.Name = "menuStrip_MeNu";
-            this.menuStrip_MeNu.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
             this.menuStrip_MeNu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip_MeNu.Size = new System.Drawing.Size(786, 42);
+            this.menuStrip_MeNu.Size = new System.Drawing.Size(786, 39);
             this.menuStrip_MeNu.TabIndex = 0;
             this.menuStrip_MeNu.Text = "menuStrip1";
             // 
@@ -99,28 +97,28 @@
             this.thoátToolStripMenuItem});
             this.thToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thToolStripMenuItem.Name = "thToolStripMenuItem";
-            this.thToolStripMenuItem.Size = new System.Drawing.Size(239, 36);
+            this.thToolStripMenuItem.Size = new System.Drawing.Size(239, 33);
             this.thToolStripMenuItem.Text = "Thông Tin Tài Khoản";
             this.thToolStripMenuItem.Click += new System.EventHandler(this.thToolStripMenuItem_Click);
             // 
             // thôngTinToolStripMenuItem
             // 
             this.thôngTinToolStripMenuItem.Name = "thôngTinToolStripMenuItem";
-            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(371, 38);
+            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(405, 36);
             this.thôngTinToolStripMenuItem.Text = "Thay Đổi Thông Tin Cá Nhân";
             this.thôngTinToolStripMenuItem.Click += new System.EventHandler(this.thôngTinToolStripMenuItem_Click);
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(371, 38);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(405, 36);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click_1);
             // 
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(371, 38);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(405, 36);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -130,30 +128,30 @@
             this.thêmBệnhNhânToolStripMenuItem1,
             this.lậpPhiếuKhámBệnhToolStripMenuItem,
             this.tìmKiếmLịchSửKhámBệnhToolStripMenuItem});
-            this.thêmBệnhNhânToolStripMenuItem.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thêmBệnhNhânToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thêmBệnhNhânToolStripMenuItem.Name = "thêmBệnhNhânToolStripMenuItem";
-            this.thêmBệnhNhânToolStripMenuItem.Size = new System.Drawing.Size(214, 36);
+            this.thêmBệnhNhânToolStripMenuItem.Size = new System.Drawing.Size(234, 33);
             this.thêmBệnhNhânToolStripMenuItem.Text = "Quản Lý Khám Bệnh";
             this.thêmBệnhNhânToolStripMenuItem.Click += new System.EventHandler(this.thêmBệnhNhânToolStripMenuItem_Click);
             // 
             // thêmBệnhNhânToolStripMenuItem1
             // 
             this.thêmBệnhNhânToolStripMenuItem1.Name = "thêmBệnhNhânToolStripMenuItem1";
-            this.thêmBệnhNhânToolStripMenuItem1.Size = new System.Drawing.Size(346, 38);
+            this.thêmBệnhNhânToolStripMenuItem1.Size = new System.Drawing.Size(364, 36);
             this.thêmBệnhNhânToolStripMenuItem1.Text = "Thêm Bệnh Nhân";
             this.thêmBệnhNhânToolStripMenuItem1.Click += new System.EventHandler(this.thêmBệnhNhânToolStripMenuItem1_Click);
             // 
             // lậpPhiếuKhámBệnhToolStripMenuItem
             // 
             this.lậpPhiếuKhámBệnhToolStripMenuItem.Name = "lậpPhiếuKhámBệnhToolStripMenuItem";
-            this.lậpPhiếuKhámBệnhToolStripMenuItem.Size = new System.Drawing.Size(346, 38);
+            this.lậpPhiếuKhámBệnhToolStripMenuItem.Size = new System.Drawing.Size(364, 36);
             this.lậpPhiếuKhámBệnhToolStripMenuItem.Text = "Lập Phiếu Khám Bệnh";
             this.lậpPhiếuKhámBệnhToolStripMenuItem.Click += new System.EventHandler(this.lậpPhiếuKhámBệnhToolStripMenuItem_Click);
             // 
             // tìmKiếmLịchSửKhámBệnhToolStripMenuItem
             // 
             this.tìmKiếmLịchSửKhámBệnhToolStripMenuItem.Name = "tìmKiếmLịchSửKhámBệnhToolStripMenuItem";
-            this.tìmKiếmLịchSửKhámBệnhToolStripMenuItem.Size = new System.Drawing.Size(346, 38);
+            this.tìmKiếmLịchSửKhámBệnhToolStripMenuItem.Size = new System.Drawing.Size(364, 36);
             this.tìmKiếmLịchSửKhámBệnhToolStripMenuItem.Text = "Kiểm Tra Hồ Sơ Bệnh Án";
             this.tìmKiếmLịchSửKhámBệnhToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmLịchSửKhámBệnhToolStripMenuItem_Click);
             // 
@@ -162,35 +160,35 @@
             this.qToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.báoCáoDoanhThuToolStripMenuItem,
             this.báoCáoSửDụngThuốcToolStripMenuItem});
-            this.qToolStripMenuItem.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.qToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qToolStripMenuItem.Name = "qToolStripMenuItem";
-            this.qToolStripMenuItem.Size = new System.Drawing.Size(105, 36);
+            this.qToolStripMenuItem.Size = new System.Drawing.Size(112, 33);
             this.qToolStripMenuItem.Text = "Báo Cáo";
             // 
             // báoCáoDoanhThuToolStripMenuItem
             // 
             this.báoCáoDoanhThuToolStripMenuItem.Name = "báoCáoDoanhThuToolStripMenuItem";
-            this.báoCáoDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(340, 38);
+            this.báoCáoDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(358, 36);
             this.báoCáoDoanhThuToolStripMenuItem.Text = "Báo Cáo Doanh Thu";
             // 
             // báoCáoSửDụngThuốcToolStripMenuItem
             // 
             this.báoCáoSửDụngThuốcToolStripMenuItem.Name = "báoCáoSửDụngThuốcToolStripMenuItem";
-            this.báoCáoSửDụngThuốcToolStripMenuItem.Size = new System.Drawing.Size(340, 38);
+            this.báoCáoSửDụngThuốcToolStripMenuItem.Size = new System.Drawing.Size(358, 36);
             this.báoCáoSửDụngThuốcToolStripMenuItem.Text = "Báo Cáo Sử Dụng Thuốc";
             // 
             // quảnLýThuốcToolStripMenuItem
             // 
-            this.quảnLýThuốcToolStripMenuItem.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.quảnLýThuốcToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.quảnLýThuốcToolStripMenuItem.Name = "quảnLýThuốcToolStripMenuItem";
-            this.quảnLýThuốcToolStripMenuItem.Size = new System.Drawing.Size(203, 36);
+            this.quảnLýThuốcToolStripMenuItem.Size = new System.Drawing.Size(180, 33);
             this.quảnLýThuốcToolStripMenuItem.Text = "Quản Lý Thuốc";
             this.quảnLýThuốcToolStripMenuItem.Click += new System.EventHandler(this.quảnLýThuốcToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(16, 36);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(16, 33);
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // adminToolStripMenuItem
@@ -199,9 +197,9 @@
             this.themTKToolStripMenuItem,
             this.chỉnhSửaThôngTinTàiKhoảnToolStripMenuItem,
             this.thayĐổiQuyĐịnhToolStripMenuItem});
-            this.adminToolStripMenuItem.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adminToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(84, 36);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(96, 33);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // themTKToolStripMenuItem
@@ -240,7 +238,7 @@
             this.hướngDẫnSửDụngToolStripMenuItem});
             this.thôngTinPhầnMềmVàHướngDẫSửDụngToolStripMenuItem.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thôngTinPhầnMềmVàHướngDẫSửDụngToolStripMenuItem.Name = "thôngTinPhầnMềmVàHướngDẫSửDụngToolStripMenuItem";
-            this.thôngTinPhầnMềmVàHướngDẫSửDụngToolStripMenuItem.Size = new System.Drawing.Size(447, 36);
+            this.thôngTinPhầnMềmVàHướngDẫSửDụngToolStripMenuItem.Size = new System.Drawing.Size(447, 33);
             this.thôngTinPhầnMềmVàHướngDẫSửDụngToolStripMenuItem.Text = "Thông Tin Phần Mềm Và Hướng Dẫn Sử Dụng";
             // 
             // thôngTinPhầnMềmToolStripMenuItem
@@ -257,13 +255,15 @@
             // 
             // toolStripMenuItem6
             // 
+            this.toolStripMenuItem6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(16, 36);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(16, 33);
             // 
             // toolStripMenuItem7
             // 
+            this.toolStripMenuItem7.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(16, 36);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(16, 33);
             // 
             // button_QuanLyThuoc
             // 
@@ -275,11 +275,11 @@
             this.button_QuanLyThuoc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.button_QuanLyThuoc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_QuanLyThuoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_QuanLyThuoc.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_QuanLyThuoc.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_QuanLyThuoc.ForeColor = System.Drawing.Color.Black;
-            this.button_QuanLyThuoc.Location = new System.Drawing.Point(470, 205);
+            this.button_QuanLyThuoc.Location = new System.Drawing.Point(454, 205);
             this.button_QuanLyThuoc.Name = "button_QuanLyThuoc";
-            this.button_QuanLyThuoc.Size = new System.Drawing.Size(224, 47);
+            this.button_QuanLyThuoc.Size = new System.Drawing.Size(187, 47);
             this.button_QuanLyThuoc.TabIndex = 2;
             this.button_QuanLyThuoc.Text = "Quản Lý Thuốc";
             this.button_QuanLyThuoc.UseVisualStyleBackColor = false;
@@ -294,11 +294,11 @@
             this.button_QuanLyKhamBenh.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.button_QuanLyKhamBenh.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_QuanLyKhamBenh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_QuanLyKhamBenh.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_QuanLyKhamBenh.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_QuanLyKhamBenh.ForeColor = System.Drawing.Color.Black;
-            this.button_QuanLyKhamBenh.Location = new System.Drawing.Point(209, 205);
+            this.button_QuanLyKhamBenh.Location = new System.Drawing.Point(150, 205);
             this.button_QuanLyKhamBenh.Name = "button_QuanLyKhamBenh";
-            this.button_QuanLyKhamBenh.Size = new System.Drawing.Size(158, 47);
+            this.button_QuanLyKhamBenh.Size = new System.Drawing.Size(159, 47);
             this.button_QuanLyKhamBenh.TabIndex = 2;
             this.button_QuanLyKhamBenh.Text = "Quản Lý khám Bệnh";
             this.button_QuanLyKhamBenh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -310,9 +310,9 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(210, 51);
+            this.panel1.Location = new System.Drawing.Point(150, 51);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(158, 158);
+            this.panel1.Size = new System.Drawing.Size(157, 148);
             this.panel1.TabIndex = 3;
             // 
             // panel2
@@ -321,7 +321,7 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Location = new System.Drawing.Point(470, 51);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(151, 148);
+            this.panel2.Size = new System.Drawing.Size(150, 148);
             this.panel2.TabIndex = 4;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -335,9 +335,9 @@
             this.button_BaoCao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.button_BaoCao.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_BaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_BaoCao.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_BaoCao.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_BaoCao.ForeColor = System.Drawing.Color.Black;
-            this.button_BaoCao.Location = new System.Drawing.Point(468, 428);
+            this.button_BaoCao.Location = new System.Drawing.Point(467, 428);
             this.button_BaoCao.Name = "button_BaoCao";
             this.button_BaoCao.Size = new System.Drawing.Size(153, 47);
             this.button_BaoCao.TabIndex = 2;
@@ -349,9 +349,9 @@
             // 
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(470, 270);
+            this.panel3.Location = new System.Drawing.Point(470, 258);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(151, 152);
+            this.panel3.Size = new System.Drawing.Size(150, 152);
             this.panel3.TabIndex = 5;
             // 
             // button_Admin
@@ -364,9 +364,9 @@
             this.button_Admin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.button_Admin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_Admin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Admin.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Admin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Admin.ForeColor = System.Drawing.Color.Black;
-            this.button_Admin.Location = new System.Drawing.Point(209, 428);
+            this.button_Admin.Location = new System.Drawing.Point(150, 428);
             this.button_Admin.Name = "button_Admin";
             this.button_Admin.Size = new System.Drawing.Size(159, 47);
             this.button_Admin.TabIndex = 2;
@@ -378,9 +378,9 @@
             // 
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Location = new System.Drawing.Point(210, 270);
+            this.panel4.Location = new System.Drawing.Point(150, 258);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(158, 152);
+            this.panel4.Size = new System.Drawing.Size(157, 152);
             this.panel4.TabIndex = 6;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -401,9 +401,9 @@
             this.Controls.Add(this.button_BaoCao);
             this.Controls.Add(this.button_QuanLyThuoc);
             this.Controls.Add(this.menuStrip_MeNu);
-            this.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStrip_MeNu;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "Form_Chinh";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
