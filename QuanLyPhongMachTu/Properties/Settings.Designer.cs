@@ -30,13 +30,12 @@ namespace QuanLyPhongMachTu.Properties
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-R6C5BS9;Initial Catalog=Quanlikhambenh;Integrated Security=Tr" +
-            "ue")]
+        [global::System.Configuration.DefaultSettingValueAttribute("workstation id=QuanLyKhamBenh.mssql.somee.com;packet size=4096;user id=dat;pwd=88888888;data source=QuanLyKhamBenh.mssql.somee.com;persist security info=False;initial catalog=QuanLyKhamBenh")]
         public string QuanlikhambenhConnectionString
         {
             get
             {
-                return ((string)(this["QuanlikhambenhConnectionString"]));
+                return ((string)(this["QuanLyKhamBenhConnectionString"]));
             }
         }
 

@@ -1,4 +1,7 @@
-Kết nối SQL server, tạo db QLKB trong máy
-Thêm connectstring mới vào app.config để kết nối với csdl của máy mình ( ko xoá connect string của máy ng khác, có thể cmt lại)
-Nếu có lỗi báo thiếu file dll, copy và replace SqlServerTypes ở ngoài thay thế SqlServerTypes trong project
-Thay đổi chuỗi connect trong file setting đuôi cs thành máy của mình
+Để thuận tiện cho mọi người, nhóm sử dụng cloud database
+
+
+Mọi người vô  db bằng link : https://somee.com/DOKA/DOC/DOLoginOrRegister.aspx
+tài khoản : cnpmnhom5
+mật khẩu: 88888888d!
+Sau đó mở project lên ko cần làm gì nữa 
