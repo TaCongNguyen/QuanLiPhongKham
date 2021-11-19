@@ -70,13 +70,13 @@
             // 
             // button_Thoat
             // 
-            this.button_Thoat.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button_Thoat.BackColor = System.Drawing.Color.PaleGreen;
             this.button_Thoat.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button_Thoat.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button_Thoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button_Thoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_Thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Thoat.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Thoat.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Thoat.ForeColor = System.Drawing.Color.Black;
             this.button_Thoat.Location = new System.Drawing.Point(566, 351);
             this.button_Thoat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -101,13 +101,13 @@
             // 
             // button_Sua
             // 
-            this.button_Sua.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button_Sua.BackColor = System.Drawing.Color.PaleGreen;
             this.button_Sua.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button_Sua.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button_Sua.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button_Sua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.button_Sua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Sua.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Sua.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Sua.ForeColor = System.Drawing.Color.Black;
             this.button_Sua.Location = new System.Drawing.Point(405, 351);
             this.button_Sua.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
