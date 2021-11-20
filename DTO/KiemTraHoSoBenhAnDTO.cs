@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DTO
-{
-    public class KiemTraHoSoBenhAnDTO
-    {
+namespace DTO {
+    public class KiemTraHoSoBenhAnDTO {
         private int mabn;
         private int mapk;
         private DateTime ngaykham;
@@ -23,186 +21,332 @@ namespace DTO
         private string donvitinh;
         private string cachdung;
 
-        public int Mabn
-        {
-            get
-            {
+        public int Mabn {
+            get {
                 return mabn;
             }
-
-            set
-            {
+            set {
                 mabn = value;
             }
         }
 
-        public int Mapk
-        {
-            get
-            {
+        public int Mapk {
+            get {
                 return mapk;
             }
-
-            set
-            {
+            set {
                 mapk = value;
             }
         }
-
-        public DateTime Ngaykham
-        {
-            get
-            {
+        public DateTime Ngaykham {
+            get {
                 return ngaykham;
             }
-
-            set
-            {
+            set {
                 ngaykham = value;
             }
         }
-
-        public string Tenbn
-        {
-            get
-            {
+        
+        public string Tenbn {
+            get {
                 return tenbn;
             }
-
-            set
-            {
+            set {
                 tenbn = value;
             }
         }
 
-        public DateTime Ngaysinh
-        {
-            get
-            {
+        public DateTime Ngaysinh {
+            get {
                 return ngaysinh;
             }
-
-            set
-            {
+            set {
                 ngaysinh = value;
             }
         }
 
-        public string Gioitinh
-        {
-            get
-            {
+        public string Gioitinh {
+            get {
                 return gioitinh;
             }
-
-            set
-            {
+            set {
                 gioitinh = value;
             }
         }
 
-        public string Bacsi
-        {
-            get
-            {
+        public string Bacsi {
+            get {
                 return bacsi;
             }
-
-            set
-            {
+            set {
                 bacsi = value;
             }
         }
 
-        public string Trieuchung
-        {
-            get
-            {
+        public string Trieuchung {
+            get {
                 return trieuchung;
             }
-
-            set
-            {
+            set {
                 trieuchung = value;
             }
         }
-
-        public string Chuandoan
-        {
-            get
-            {
+        
+        public string Chuandoan {
+            get {
                 return chuandoan;
             }
-
-            set
-            {
+            set {
                 chuandoan = value;
             }
         }
-
-        public string Tenthuoc
-        {
-            get
-            {
+        
+        public string Tenthuoc {
+            get {
                 return tenthuoc;
             }
-
-            set
-            {
+            set {
                 tenthuoc = value;
             }
         }
 
-        public int Soluong
-        {
-            get
-            {
+        public int Soluong {
+            get {
                 return soluong;
             }
-
-            set
-            {
+            set {
                 soluong = value;
             }
         }
 
-        public float Dongia
-        {
-            get
-            {
+        public float Dongia {
+            get {
                 return dongia;
             }
-
-            set
-            {
+            set {
                 dongia = value;
             }
         }
 
-        public string Donvitinh
-        {
-            get
-            {
+        public string Donvitinh {
+            get {
                 return donvitinh;
             }
-
-            set
-            {
+            set {
                 donvitinh = value;
             }
         }
 
-        public string Cachdung
-        {
-            get
-            {
+        public string Cachdung {
+            get {
                 return cachdung;
             }
-
-            set
-            {
+            set {
                 cachdung = value;
             }
         }
     }
 }
+
+// namespace DTO
+// {
+//     public class KiemTraHoSoBenhAnDTO
+//     {
+//         private int mabn;
+//         private int mapk;
+//         private DateTime ngaykham;
+//         private string tenbn;
+//         private DateTime ngaysinh;
+//         private string gioitinh;
+//         private string bacsi;
+//         private string trieuchung;
+//         private string chuandoan;
+//         private string tenthuoc;
+//         private int soluong;
+//         private float dongia;
+//         private string donvitinh;
+//         private string cachdung;
+
+//         public int Mabn
+//         {
+//             get
+//             {
+//                 return mabn;
+//             }
+
+//             set
+//             {
+//                 mabn = value;
+//             }
+//         }
+
+//         public int Mapk
+//         {
+//             get
+//             {
+//                 return mapk;
+//             }
+
+//             set
+//             {
+//                 mapk = value;
+//             }
+//         }
+
+//         public DateTime Ngaykham
+//         {
+//             get
+//             {
+//                 return ngaykham;
+//             }
+
+//             set
+//             {
+//                 ngaykham = value;
+//             }
+//         }
+
+//         public string Tenbn
+//         {
+//             get
+//             {
+//                 return tenbn;
+//             }
+
+//             set
+//             {
+//                 tenbn = value;
+//             }
+//         }
+
+//         public DateTime Ngaysinh
+//         {
+//             get
+//             {
+//                 return ngaysinh;
+//             }
+
+//             set
+//             {
+//                 ngaysinh = value;
+//             }
+//         }
+
+//         public string Gioitinh
+//         {
+//             get
+//             {
+//                 return gioitinh;
+//             }
+
+//             set
+//             {
+//                 gioitinh = value;
+//             }
+//         }
+
+//         public string Bacsi
+//         {
+//             get
+//             {
+//                 return bacsi;
+//             }
+
+//             set
+//             {
+//                 bacsi = value;
+//             }
+//         }
+
+//         public string Trieuchung
+//         {
+//             get
+//             {
+//                 return trieuchung;
+//             }
+
+//             set
+//             {
+//                 trieuchung = value;
+//             }
+//         }
+
+//         public string Chuandoan
+//         {
+//             get
+//             {
+//                 return chuandoan;
+//             }
+
+//             set
+//             {
+//                 chuandoan = value;
+//             }
+//         }
+
+//         public string Tenthuoc
+//         {
+//             get
+//             {
+//                 return tenthuoc;
+//             }
+
+//             set
+//             {
+//                 tenthuoc = value;
+//             }
+//         }
+
+//         public int Soluong
+//         {
+//             get
+//             {
+//                 return soluong;
+//             }
+
+//             set
+//             {
+//                 soluong = value;
+//             }
+//         }
+
+//         public float Dongia
+//         {
+//             get
+//             {
+//                 return dongia;
+//             }
+
+//             set
+//             {
+//                 dongia = value;
+//             }
+//         }
+
+//         public string Donvitinh
+//         {
+//             get
+//             {
+//                 return donvitinh;
+//             }
+
+//             set
+//             {
+//                 donvitinh = value;
+//             }
+//         }
+
+//         public string Cachdung
+//         {
+//             get
+//             {
+//                 return cachdung;
+//             }
+
+//             set
+//             {
+//                 cachdung = value;
+//             }
+//         }
+//     }
+// }
