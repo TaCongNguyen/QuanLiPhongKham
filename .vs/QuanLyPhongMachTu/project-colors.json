@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "90dd1ffb-c3ae-4b40-a60e-ed8f81eaec35": {
+      "ProjectGuid": "90dd1ffb-c3ae-4b40-a60e-ed8f81eaec35",
+      "DisplayName": "ADO_Quan_Ly_Phong_Kham",
+      "ColorIndex": 0
+    },
+    "87453656-e6d8-4a91-96e8-fbac8e78276f": {
+      "ProjectGuid": "87453656-e6d8-4a91-96e8-fbac8e78276f",
+      "DisplayName": "DAO",
+      "ColorIndex": 1
+    },
+    "05253c88-3aa4-4127-b3c8-14d4297cd737": {
+      "ProjectGuid": "05253c88-3aa4-4127-b3c8-14d4297cd737",
+      "DisplayName": "DTO",
+      "ColorIndex": 2
+    },
+    "d92ea40d-88fe-4ff0-9140-b4ceefba2de4": {
+      "ProjectGuid": "d92ea40d-88fe-4ff0-9140-b4ceefba2de4",
+      "DisplayName": "BUS",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

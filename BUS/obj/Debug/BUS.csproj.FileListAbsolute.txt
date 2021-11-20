@@ -1,0 +1,17 @@
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\BUS.exe.config
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\BUS.exe
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\BUS.pdb
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\DAO.exe
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\DTO.exe
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\DAO.pdb
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\DAO.exe.config
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\DTO.pdb
+D:\Dev\SE104\QuanLiPhongKham\BUS\bin\Debug\DTO.exe.config
+D:\Dev\SE104\QuanLiPhongKham\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Dev\SE104\QuanLiPhongKham\BUS\obj\Debug\BUS.csproj.SuggestedBindingRedirects.cache
+D:\Dev\SE104\QuanLiPhongKham\BUS\obj\Debug\BUS.Properties.Resources.resources
+D:\Dev\SE104\QuanLiPhongKham\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+D:\Dev\SE104\QuanLiPhongKham\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Dev\SE104\QuanLiPhongKham\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Dev\SE104\QuanLiPhongKham\BUS\obj\Debug\BUS.exe
+D:\Dev\SE104\QuanLiPhongKham\BUS\obj\Debug\BUS.pdb

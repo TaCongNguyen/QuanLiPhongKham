@@ -1,0 +1,14 @@
+D:\Dev\SE104\QuanLiPhongKham\DAO\bin\Debug\DAO.exe.config
+D:\Dev\SE104\QuanLiPhongKham\DAO\bin\Debug\DAO.exe
+D:\Dev\SE104\QuanLiPhongKham\DAO\bin\Debug\DAO.pdb
+D:\Dev\SE104\QuanLiPhongKham\DAO\bin\Debug\DTO.exe
+D:\Dev\SE104\QuanLiPhongKham\DAO\bin\Debug\DTO.pdb
+D:\Dev\SE104\QuanLiPhongKham\DAO\bin\Debug\DTO.exe.config
+D:\Dev\SE104\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\Dev\SE104\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.SuggestedBindingRedirects.cache
+D:\Dev\SE104\QuanLiPhongKham\DAO\obj\Debug\DAO.Properties.Resources.resources
+D:\Dev\SE104\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.GenerateResource.cache
+D:\Dev\SE104\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\Dev\SE104\QuanLiPhongKham\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\Dev\SE104\QuanLiPhongKham\DAO\obj\Debug\DAO.exe
+D:\Dev\SE104\QuanLiPhongKham\DAO\obj\Debug\DAO.pdb
