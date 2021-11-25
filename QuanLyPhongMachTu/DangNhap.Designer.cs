@@ -42,7 +42,6 @@ namespace QuanLyPhongMachTu
             this.txb_TenDangNhap = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lb_TenDangNhap = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panelSoan.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -61,7 +60,7 @@ namespace QuanLyPhongMachTu
             this.panelSoan.Location = new System.Drawing.Point(2, 20);
             this.panelSoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelSoan.Name = "panelSoan";
-            this.panelSoan.Size = new System.Drawing.Size(1056, 462);
+            this.panelSoan.Size = new System.Drawing.Size(938, 462);
             this.panelSoan.TabIndex = 0;
             // 
             // panel1
@@ -80,22 +79,23 @@ namespace QuanLyPhongMachTu
             this.lb_ThongTinDangNhap.AutoSize = true;
             this.lb_ThongTinDangNhap.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold);
             this.lb_ThongTinDangNhap.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lb_ThongTinDangNhap.Location = new System.Drawing.Point(316, 29);
+            this.lb_ThongTinDangNhap.Location = new System.Drawing.Point(208, 12);
             this.lb_ThongTinDangNhap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_ThongTinDangNhap.Name = "lb_ThongTinDangNhap";
             this.lb_ThongTinDangNhap.Size = new System.Drawing.Size(418, 47);
             this.lb_ThongTinDangNhap.TabIndex = 4;
             this.lb_ThongTinDangNhap.Text = "Thông Tin Đăng Nhập";
+            this.lb_ThongTinDangNhap.Click += new System.EventHandler(this.lb_ThongTinDangNhap_Click);
             // 
             // button_Thoat
             // 
-            this.button_Thoat.BackColor = System.Drawing.Color.Red;
+            this.button_Thoat.BackColor = System.Drawing.Color.IndianRed;
             this.button_Thoat.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.button_Thoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button_Thoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
             this.button_Thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Thoat.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Thoat.Location = new System.Drawing.Point(854, 378);
+            this.button_Thoat.Location = new System.Drawing.Point(698, 369);
             this.button_Thoat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_Thoat.Name = "button_Thoat";
             this.button_Thoat.Size = new System.Drawing.Size(174, 62);
@@ -113,7 +113,7 @@ namespace QuanLyPhongMachTu
             this.buton_DangNhap.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
             this.buton_DangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buton_DangNhap.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buton_DangNhap.Location = new System.Drawing.Point(570, 378);
+            this.buton_DangNhap.Location = new System.Drawing.Point(452, 369);
             this.buton_DangNhap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buton_DangNhap.Name = "buton_DangNhap";
             this.buton_DangNhap.Size = new System.Drawing.Size(174, 62);
@@ -132,7 +132,7 @@ namespace QuanLyPhongMachTu
             this.panel3.Location = new System.Drawing.Point(190, 254);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(842, 94);
+            this.panel3.Size = new System.Drawing.Size(682, 79);
             this.panel3.TabIndex = 1;
             // 
             // txb_MatKhau
@@ -141,7 +141,7 @@ namespace QuanLyPhongMachTu
             this.txb_MatKhau.Location = new System.Drawing.Point(380, 26);
             this.txb_MatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_MatKhau.Name = "txb_MatKhau";
-            this.txb_MatKhau.Size = new System.Drawing.Size(456, 40);
+            this.txb_MatKhau.Size = new System.Drawing.Size(265, 40);
             this.txb_MatKhau.TabIndex = 2;
             this.txb_MatKhau.Text = "1234";
             this.txb_MatKhau.UseSystemPasswordChar = true;
@@ -177,7 +177,7 @@ namespace QuanLyPhongMachTu
             this.panel2.Location = new System.Drawing.Point(190, 118);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(842, 94);
+            this.panel2.Size = new System.Drawing.Size(682, 89);
             this.panel2.TabIndex = 0;
             // 
             // txb_TenDangNhap
@@ -186,7 +186,7 @@ namespace QuanLyPhongMachTu
             this.txb_TenDangNhap.Location = new System.Drawing.Point(380, 31);
             this.txb_TenDangNhap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_TenDangNhap.Name = "txb_TenDangNhap";
-            this.txb_TenDangNhap.Size = new System.Drawing.Size(456, 40);
+            this.txb_TenDangNhap.Size = new System.Drawing.Size(265, 40);
             this.txb_TenDangNhap.TabIndex = 1;
             this.txb_TenDangNhap.Text = "admin";
             // 
@@ -213,17 +213,6 @@ namespace QuanLyPhongMachTu
             this.lb_TenDangNhap.TabIndex = 0;
             this.lb_TenDangNhap.Text = "Tên Đăng Nhập";
             // 
-            // panel4
-            // 
-            this.panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Location = new System.Drawing.Point(958, 15);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(123, 137);
-            this.panel4.TabIndex = 5;
-            // 
             // DangNhap
             // 
             this.AcceptButton = this.buton_DangNhap;
@@ -231,8 +220,7 @@ namespace QuanLyPhongMachTu
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1113, 554);
-            this.Controls.Add(this.panel4);
+            this.ClientSize = new System.Drawing.Size(960, 497);
             this.Controls.Add(this.panelSoan);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
@@ -266,7 +254,6 @@ namespace QuanLyPhongMachTu
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lb_ThongTinDangNhap;
-        private System.Windows.Forms.Panel panel4;
     }
 }
 

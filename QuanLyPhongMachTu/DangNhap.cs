@@ -80,5 +80,10 @@ namespace QuanLyPhongMachTu
         {
 
         }
+
+        private void lb_ThongTinDangNhap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

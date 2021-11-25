@@ -66,7 +66,6 @@
             this.menuStrip_MeNu.BackColor = System.Drawing.Color.Turquoise;
             this.menuStrip_MeNu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.menuStrip_MeNu.Font = new System.Drawing.Font("Constantia", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip_MeNu.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip_MeNu.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip_MeNu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thToolStripMenuItem,
@@ -272,7 +271,7 @@
             this.button_QuanLyKhamBenh.ForeColor = System.Drawing.Color.Black;
             this.button_QuanLyKhamBenh.Location = new System.Drawing.Point(104, 205);
             this.button_QuanLyKhamBenh.Name = "button_QuanLyKhamBenh";
-            this.button_QuanLyKhamBenh.Size = new System.Drawing.Size(203, 47);
+            this.button_QuanLyKhamBenh.Size = new System.Drawing.Size(182, 47);
             this.button_QuanLyKhamBenh.TabIndex = 2;
             this.button_QuanLyKhamBenh.Text = "Quản Lý khám Bệnh";
             this.button_QuanLyKhamBenh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -286,8 +285,9 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(104, 51);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(203, 148);
+            this.panel1.Size = new System.Drawing.Size(182, 148);
             this.panel1.TabIndex = 3;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_2);
             // 
             // panel2
             // 
@@ -342,7 +342,7 @@
             this.button_Admin.ForeColor = System.Drawing.Color.Black;
             this.button_Admin.Location = new System.Drawing.Point(104, 428);
             this.button_Admin.Name = "button_Admin";
-            this.button_Admin.Size = new System.Drawing.Size(205, 47);
+            this.button_Admin.Size = new System.Drawing.Size(182, 47);
             this.button_Admin.TabIndex = 2;
             this.button_Admin.Text = "Admin";
             this.button_Admin.UseVisualStyleBackColor = false;
@@ -354,7 +354,7 @@
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Location = new System.Drawing.Point(104, 258);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(203, 152);
+            this.panel4.Size = new System.Drawing.Size(182, 155);
             this.panel4.TabIndex = 6;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 

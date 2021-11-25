@@ -236,7 +236,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnXoa.BackColor = System.Drawing.Color.IndianRed;
             this.btnXoa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnXoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -252,7 +252,7 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnThoat.BackColor = System.Drawing.Color.IndianRed;
             this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnThoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnThoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;

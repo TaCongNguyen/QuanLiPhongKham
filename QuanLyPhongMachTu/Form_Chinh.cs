@@ -377,5 +377,10 @@ namespace QuanLyPhongKham
             this.Hide();
             f.ShowDialog();
         }
+
+        private void panel1_Paint_2(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
