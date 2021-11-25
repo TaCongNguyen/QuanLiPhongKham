@@ -97,7 +97,7 @@ namespace QuanLyPhongMachTu
             // neu nhap lai mat khau khac voi mat khau moi thi ko thuc hien
             if(!MatKhauMoi.Equals(NhapLaiMKM))
             {
-                MessageBox.Show("Vui lòng nhập lại mật khẩu mới đúng với mật khẩu mới!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng nhập đúng các thông tin !", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
@@ -112,7 +112,7 @@ namespace QuanLyPhongMachTu
                 }
                 else
                 {
-                    MessageBox.Show("Vui lòng điền đúng mật khẩu cũ!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Vui lòng điền đúng thông tin cá nhân", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
             }
