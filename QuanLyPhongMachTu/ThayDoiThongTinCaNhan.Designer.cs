@@ -182,11 +182,11 @@
             this.txb_Ma.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txb_Ma.Location = new System.Drawing.Point(335, 18);
             this.txb_Ma.Name = "txb_Ma";
-            this.txb_Ma.ReadOnly = true;
+            //this.txb_Ma.ReadOnly = true;
             this.txb_Ma.Size = new System.Drawing.Size(417, 28);
             this.txb_Ma.TabIndex = 0;
             this.txb_Ma.TabStop = false;
-            this.txb_Ma.Text = "Mã Tự Động Tăng";
+            this.txb_Ma.Text = "Vui Lòng điền đúng mã của bản thân";
             this.txb_Ma.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lb_ThayDoiThongTinCaNhan
