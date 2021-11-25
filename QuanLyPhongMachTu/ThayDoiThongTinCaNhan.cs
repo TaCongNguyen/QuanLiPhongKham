@@ -46,10 +46,13 @@ namespace QuanLyPhongMachTu
 
         void ChangeAccount(NHANVIEN bacsi)
         {
+            if (bacsi != null)
+            {
+                txb_Ma.Text = bacsi.MaNV1.ToString();
+                txb_Ten.Text = bacsi.TenNV1;
+                txb_TenDangNhap.Text = bacsi.TenDangNhap1;
+            }
             
-            txb_Ma.Text = bacsi.MaNV1.ToString();
-            txb_Ten.Text = bacsi.TenNV1;
-            txb_TenDangNhap.Text= bacsi.TenDangNhap1;
         }
 
         private event EventHandler<DOITHONGTINEvent> capNhat;
