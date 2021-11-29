@@ -214,7 +214,9 @@ namespace QuanLyPhongMachTu
 
         private void button5_Click(object sender, EventArgs e)
         {
+            Form_Chinh f = new Form_Chinh();
             this.Hide();
+            f.ShowDialog();
         }
     }
 }

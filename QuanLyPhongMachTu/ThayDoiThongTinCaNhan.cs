@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using DTO;
 using BUS;
 using System.Data.SqlClient;
+using QuanLyPhongKham;
 
 namespace QuanLyPhongMachTu
 {
@@ -136,17 +137,11 @@ namespace QuanLyPhongMachTu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult ketqua = MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (ketqua == DialogResult.OK)
-            {
-                this.Hide();
-    
-            }
-            else
-            {
+            Form_Chinh x = new Form_Chinh();
 
-                return;
-            }
+            this.Hide();
+
+            x.ShowDialog();
 
         }
 

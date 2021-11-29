@@ -340,7 +340,9 @@ namespace QuanLyPhongKham
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
+          
            Application.Exit();
+          
         }
 
         private void quảnLýThuốcToolStripMenuItem_Click(object sender, EventArgs e)

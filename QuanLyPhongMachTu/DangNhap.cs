@@ -63,7 +63,7 @@ namespace QuanLyPhongMachTu
        
         private void buton_Thoat(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void DangNhap_Load(object sender, EventArgs e)

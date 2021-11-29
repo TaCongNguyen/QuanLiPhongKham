@@ -158,19 +158,7 @@ namespace QuanLyPhongMachTu
             this.XuatLichSuKham();
         }
 
-        private void frmKiemTraHoSoBenhAn_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (MessageBox.Show("Bạn thực sự muốn thoát!", "Thông Báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
-            {
-                e.Cancel = true;
-            }
-            else
-            {
-                Form_Chinh f = new Form_Chinh();
-                this.Hide();
-                f.ShowDialog();
-            }
-        }
+        
 
         private void btnThoat_Click(object sender, EventArgs e)
         {

@@ -48,11 +48,11 @@ namespace QuanLyPhongMachTu
 
             if (dlr == DialogResult.Yes)
             {
-                //Form_Chinh x = new Form_Chinh();
+                Form_Chinh x = new Form_Chinh();
 
                 this.Hide();
 
-                //x.ShowDialog();
+                x.ShowDialog();
             }
         }
 

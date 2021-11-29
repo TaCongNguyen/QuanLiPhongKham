@@ -400,7 +400,7 @@
             this.Name = "frmKiemTraHoSoBenhAn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kiểm Tra Hồ Sơ Bệnh Án";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmKiemTraHoSoBenhAn_FormClosing);
+            
             this.Load += new System.EventHandler(this.KiemTraHoSoBenhAn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinToaThuoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLichSuKhamBenh)).EndInit();
