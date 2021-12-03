@@ -37,7 +37,7 @@
     </Win32Resource>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Jamespeng-Medical-Medical-camera.ico</ApplicationIcon>
+    <ApplicationIcon>medical.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -263,6 +263,7 @@
     <None Include="Resources\panel1.BackgroundImage.png" />
     <None Include="Resources\panel1.BackgroundImage.bmp" />
     <Content Include="Jamespeng-Medical-Medical-camera.ico" />
+    <Content Include="medical.ico" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
