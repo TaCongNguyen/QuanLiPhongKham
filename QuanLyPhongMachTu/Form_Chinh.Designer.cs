@@ -83,7 +83,7 @@
             this.thoátToolStripMenuItem});
             this.thToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thToolStripMenuItem.Name = "thToolStripMenuItem";
-            this.thToolStripMenuItem.Size = new System.Drawing.Size(239, 34);
+            this.thToolStripMenuItem.Size = new System.Drawing.Size(239, 32);
             this.thToolStripMenuItem.Text = "Thông Tin Tài Khoản";
             this.thToolStripMenuItem.Click += new System.EventHandler(this.thToolStripMenuItem_Click);
             // 
@@ -116,7 +116,7 @@
             this.tìmKiếmLịchSửKhámBệnhToolStripMenuItem});
             this.thêmBệnhNhânToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thêmBệnhNhânToolStripMenuItem.Name = "thêmBệnhNhânToolStripMenuItem";
-            this.thêmBệnhNhânToolStripMenuItem.Size = new System.Drawing.Size(234, 34);
+            this.thêmBệnhNhânToolStripMenuItem.Size = new System.Drawing.Size(234, 32);
             this.thêmBệnhNhânToolStripMenuItem.Text = "Quản Lý Khám Bệnh";
             this.thêmBệnhNhânToolStripMenuItem.Click += new System.EventHandler(this.thêmBệnhNhânToolStripMenuItem_Click);
             // 
@@ -145,7 +145,7 @@
             // 
             this.quảnLýThuốcToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.quảnLýThuốcToolStripMenuItem.Name = "quảnLýThuốcToolStripMenuItem";
-            this.quảnLýThuốcToolStripMenuItem.Size = new System.Drawing.Size(180, 34);
+            this.quảnLýThuốcToolStripMenuItem.Size = new System.Drawing.Size(180, 32);
             this.quảnLýThuốcToolStripMenuItem.Text = "Quản Lý Thuốc";
             this.quảnLýThuốcToolStripMenuItem.Click += new System.EventHandler(this.quảnLýThuốcToolStripMenuItem_Click);
             // 
@@ -157,7 +157,7 @@
             this.thayĐổiQuyĐịnhToolStripMenuItem});
             this.adminToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(96, 34);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(96, 32);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // themTKToolStripMenuItem
@@ -327,6 +327,7 @@
             this.Controls.Add(this.button_QuanLyThuoc);
             this.Controls.Add(this.menuStrip_MeNu);
             this.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip_MeNu;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;

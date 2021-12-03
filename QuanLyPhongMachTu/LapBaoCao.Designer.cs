@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LapBaoCao));
             this.BAOCAOBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.QLKBDataSet = new QuanLyPhongMachTu.QLKBDataSet();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
@@ -174,6 +175,7 @@
             this.Controls.Add(this.lblThang);
             this.Controls.Add(this.lblLapBaoCao);
             this.Controls.Add(this.reportViewer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LapBaoCao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

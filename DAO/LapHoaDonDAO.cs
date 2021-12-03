@@ -96,12 +96,16 @@ namespace DAO
         {
             string query = "select TenBN from BENHNHAN, PHIEUKHAM where BENHNHAN.MaBN = PHIEUKHAM.MaBN and MaPK='" + a.Mapk + "'and BENHNHAN.TrangThai='1'";
             DataTable dt = DataProvider.Instance.ExecuteQuery(query);
+            
             if (dt.Rows.Count == 1)
             {
                 LapHoaDonDTO ThongTinDto = new LapHoaDonDTO();
                 ThongTinDto.Tenbn = dt.Rows[0]["TenBN"].ToString();
                 return ThongTinDto;
             }
+           
+
+
             return null;
         }
 

@@ -33,6 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKiemTraHoSoBenhAn));
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.dtpNgayKham = new System.Windows.Forms.DateTimePicker();
             this.rdbNu = new System.Windows.Forms.RadioButton();
@@ -396,11 +397,11 @@
             this.Controls.Add(this.btnTim);
             this.Controls.Add(this.txtMaBenhNhan);
             this.Controls.Add(this.lblMaBenhNhan);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmKiemTraHoSoBenhAn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kiểm Tra Hồ Sơ Bệnh Án";
-            
             this.Load += new System.EventHandler(this.KiemTraHoSoBenhAn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinToaThuoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLichSuKhamBenh)).EndInit();

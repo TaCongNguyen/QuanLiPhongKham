@@ -340,6 +340,9 @@ namespace QuanLyPhongMachTu
 
         }
 
+        private void txtChiPhiKham_TextChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }
