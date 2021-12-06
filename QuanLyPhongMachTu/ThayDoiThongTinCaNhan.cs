@@ -160,5 +160,15 @@ namespace QuanLyPhongMachTu
                
             }
         }
+
+        private void lb_MatKhauCu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_TenDangNhap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

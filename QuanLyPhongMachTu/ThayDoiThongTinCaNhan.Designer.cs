@@ -50,7 +50,9 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button_Xoa);
             this.panel1.Controls.Add(this.lb_NhapLai);
+            this.panel1.Controls.Add(this.button_SUA);
             this.panel1.Controls.Add(this.lb_MatKhauMoi);
             this.panel1.Controls.Add(this.lb_MatKhauCu);
             this.panel1.Controls.Add(this.lb_TenDangNhap);
@@ -65,14 +67,14 @@
             this.panel1.Location = new System.Drawing.Point(40, 72);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1126, 608);
+            this.panel1.Size = new System.Drawing.Size(1057, 604);
             this.panel1.TabIndex = 0;
             // 
             // lb_NhapLai
             // 
             this.lb_NhapLai.AutoSize = true;
             this.lb_NhapLai.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_NhapLai.Location = new System.Drawing.Point(4, 506);
+            this.lb_NhapLai.Location = new System.Drawing.Point(4, 413);
             this.lb_NhapLai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_NhapLai.Name = "lb_NhapLai";
             this.lb_NhapLai.Size = new System.Drawing.Size(325, 31);
@@ -84,7 +86,7 @@
             // 
             this.lb_MatKhauMoi.AutoSize = true;
             this.lb_MatKhauMoi.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_MatKhauMoi.Location = new System.Drawing.Point(4, 411);
+            this.lb_MatKhauMoi.Location = new System.Drawing.Point(4, 331);
             this.lb_MatKhauMoi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_MatKhauMoi.Name = "lb_MatKhauMoi";
             this.lb_MatKhauMoi.Size = new System.Drawing.Size(203, 31);
@@ -96,31 +98,33 @@
             // 
             this.lb_MatKhauCu.AutoSize = true;
             this.lb_MatKhauCu.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_MatKhauCu.Location = new System.Drawing.Point(4, 315);
+            this.lb_MatKhauCu.Location = new System.Drawing.Point(4, 253);
             this.lb_MatKhauCu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_MatKhauCu.Name = "lb_MatKhauCu";
             this.lb_MatKhauCu.Size = new System.Drawing.Size(184, 31);
             this.lb_MatKhauCu.TabIndex = 1;
             this.lb_MatKhauCu.Text = "MẬT KHẨU CŨ";
             this.lb_MatKhauCu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lb_MatKhauCu.Click += new System.EventHandler(this.lb_MatKhauCu_Click);
             // 
             // lb_TenDangNhap
             // 
             this.lb_TenDangNhap.AutoSize = true;
             this.lb_TenDangNhap.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_TenDangNhap.Location = new System.Drawing.Point(4, 225);
+            this.lb_TenDangNhap.Location = new System.Drawing.Point(4, 176);
             this.lb_TenDangNhap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_TenDangNhap.Name = "lb_TenDangNhap";
             this.lb_TenDangNhap.Size = new System.Drawing.Size(215, 31);
             this.lb_TenDangNhap.TabIndex = 1;
             this.lb_TenDangNhap.Text = "TÊN ĐĂNG NHẬP";
             this.lb_TenDangNhap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lb_TenDangNhap.Click += new System.EventHandler(this.lb_TenDangNhap_Click);
             // 
             // lb_HoTen
             // 
             this.lb_HoTen.AutoSize = true;
             this.lb_HoTen.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_HoTen.Location = new System.Drawing.Point(4, 122);
+            this.lb_HoTen.Location = new System.Drawing.Point(4, 106);
             this.lb_HoTen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_HoTen.Name = "lb_HoTen";
             this.lb_HoTen.Size = new System.Drawing.Size(144, 31);
@@ -143,7 +147,7 @@
             // txb_NhapLaiMatKhauMoi
             // 
             this.txb_NhapLaiMatKhauMoi.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_NhapLaiMatKhauMoi.Location = new System.Drawing.Point(507, 502);
+            this.txb_NhapLaiMatKhauMoi.Location = new System.Drawing.Point(368, 406);
             this.txb_NhapLaiMatKhauMoi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_NhapLaiMatKhauMoi.Name = "txb_NhapLaiMatKhauMoi";
             this.txb_NhapLaiMatKhauMoi.Size = new System.Drawing.Size(618, 38);
@@ -153,7 +157,7 @@
             // txb_MatKhauMoi
             // 
             this.txb_MatKhauMoi.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_MatKhauMoi.Location = new System.Drawing.Point(507, 406);
+            this.txb_MatKhauMoi.Location = new System.Drawing.Point(368, 324);
             this.txb_MatKhauMoi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_MatKhauMoi.Name = "txb_MatKhauMoi";
             this.txb_MatKhauMoi.Size = new System.Drawing.Size(618, 38);
@@ -163,17 +167,17 @@
             // txb_MatKhauCu
             // 
             this.txb_MatKhauCu.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_MatKhauCu.Location = new System.Drawing.Point(507, 311);
+            this.txb_MatKhauCu.Location = new System.Drawing.Point(370, 246);
             this.txb_MatKhauCu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_MatKhauCu.Name = "txb_MatKhauCu";
-            this.txb_MatKhauCu.Size = new System.Drawing.Size(618, 38);
+            this.txb_MatKhauCu.Size = new System.Drawing.Size(622, 38);
             this.txb_MatKhauCu.TabIndex = 3;
             this.txb_MatKhauCu.UseSystemPasswordChar = true;
             // 
             // txb_TenDangNhap
             // 
             this.txb_TenDangNhap.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_TenDangNhap.Location = new System.Drawing.Point(502, 220);
+            this.txb_TenDangNhap.Location = new System.Drawing.Point(370, 169);
             this.txb_TenDangNhap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_TenDangNhap.Name = "txb_TenDangNhap";
             this.txb_TenDangNhap.Size = new System.Drawing.Size(622, 38);
@@ -182,7 +186,7 @@
             // txb_Ten
             // 
             this.txb_Ten.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_Ten.Location = new System.Drawing.Point(502, 135);
+            this.txb_Ten.Location = new System.Drawing.Point(370, 103);
             this.txb_Ten.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_Ten.Name = "txb_Ten";
             this.txb_Ten.Size = new System.Drawing.Size(622, 38);
@@ -193,7 +197,7 @@
             // 
             this.txb_Ma.BackColor = System.Drawing.Color.LightYellow;
             this.txb_Ma.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_Ma.Location = new System.Drawing.Point(502, 28);
+            this.txb_Ma.Location = new System.Drawing.Point(368, 29);
             this.txb_Ma.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_Ma.Name = "txb_Ma";
             this.txb_Ma.Size = new System.Drawing.Size(624, 38);
@@ -225,10 +229,10 @@
             this.button_SUA.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button_SUA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_SUA.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_SUA.Location = new System.Drawing.Point(548, 706);
+            this.button_SUA.Location = new System.Drawing.Point(449, 516);
             this.button_SUA.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_SUA.Name = "button_SUA";
-            this.button_SUA.Size = new System.Drawing.Size(276, 88);
+            this.button_SUA.Size = new System.Drawing.Size(247, 44);
             this.button_SUA.TabIndex = 6;
             this.button_SUA.Text = "THAY ĐỔI";
             this.button_SUA.UseVisualStyleBackColor = false;
@@ -242,10 +246,10 @@
             this.button_Xoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button_Xoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Xoa.Font = new System.Drawing.Font("Cambria", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Xoa.Location = new System.Drawing.Point(891, 706);
+            this.button_Xoa.Location = new System.Drawing.Point(747, 516);
             this.button_Xoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_Xoa.Name = "button_Xoa";
-            this.button_Xoa.Size = new System.Drawing.Size(276, 88);
+            this.button_Xoa.Size = new System.Drawing.Size(245, 44);
             this.button_Xoa.TabIndex = 7;
             this.button_Xoa.Text = "THOÁT";
             this.button_Xoa.UseVisualStyleBackColor = false;
@@ -257,9 +261,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1222, 826);
-            this.Controls.Add(this.button_Xoa);
-            this.Controls.Add(this.button_SUA);
+            this.ClientSize = new System.Drawing.Size(1144, 691);
             this.Controls.Add(this.lb_ThayDoiThongTinCaNhan);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

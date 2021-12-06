@@ -340,9 +340,10 @@ namespace QuanLyPhongKham
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          
-           Application.Exit();
-          
+
+            Application.ExitThread();
+
+
         }
 
         private void quảnLýThuốcToolStripMenuItem_Click(object sender, EventArgs e)
@@ -381,6 +382,11 @@ namespace QuanLyPhongKham
         }
 
         private void panel1_Paint_2(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void menuStrip_MeNu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }

@@ -151,7 +151,6 @@
             this.txtChiPhiKham.Location = new System.Drawing.Point(196, 172);
             this.txtChiPhiKham.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtChiPhiKham.Name = "txtChiPhiKham";
-            this.txtChiPhiKham.ReadOnly = false;
             this.txtChiPhiKham.Size = new System.Drawing.Size(180, 33);
             this.txtChiPhiKham.TabIndex = 14;
             this.txtChiPhiKham.Text = "0";
@@ -448,7 +447,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1203, 786);
+            this.ClientSize = new System.Drawing.Size(1203, 821);
             this.Controls.Add(this.lblLapHoaDon);
             this.Controls.Add(this.grbThongTinChiTiet);
             this.Controls.Add(this.grbNhapThongTin);

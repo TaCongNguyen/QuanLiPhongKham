@@ -163,7 +163,7 @@ namespace QuanLyPhongMachTu
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Form_Chinh f = new Form_Chinh();
-            this.Hide();
+            this.Hide(); ;
             f.ShowDialog();
         }
 
