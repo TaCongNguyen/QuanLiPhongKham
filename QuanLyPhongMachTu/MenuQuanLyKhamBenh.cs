@@ -21,15 +21,17 @@ namespace QuanLyPhongMachTu
         private void button1_Click(object sender, EventArgs e)
         {
             ThemThongTinBenhNhan bn = new ThemThongTinBenhNhan();
-            bn.ShowDialog();
             this.Hide();
+            bn.ShowDialog();         
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             LapPhieuKhamBenh_GUI pk = new LapPhieuKhamBenh_GUI();
-            pk.ShowDialog();
             this.Hide();
+            pk.ShowDialog();
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -37,7 +39,8 @@ namespace QuanLyPhongMachTu
             frmGhiKetQuaVaoPK f = new frmGhiKetQuaVaoPK();
             this.Hide();
             f.ShowDialog();
-           
+            this.Close();
+
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -45,6 +48,7 @@ namespace QuanLyPhongMachTu
             frmKiemTraHoSoBenhAn x = new frmKiemTraHoSoBenhAn();
             this.Hide();
             x.ShowDialog();
+            this.Close();
 
         }
 
@@ -58,6 +62,7 @@ namespace QuanLyPhongMachTu
                 Form_Chinh x = new Form_Chinh();
                 this.Hide();
                 x.ShowDialog();
+                this.Close();
 
             }
 
@@ -69,6 +74,7 @@ namespace QuanLyPhongMachTu
             frmLapHoaDon f = new frmLapHoaDon();
             this.Hide();
             f.ShowDialog();
+            this.Close();
         }
 
         private void MenuQuanLyKhamBenh_Load(object sender, EventArgs e)
@@ -81,6 +87,7 @@ namespace QuanLyPhongMachTu
             this.Hide();
             Form_Chinh f = new Form_Chinh();
             f.ShowDialog();
+            this.Close();
         }
     }
 }

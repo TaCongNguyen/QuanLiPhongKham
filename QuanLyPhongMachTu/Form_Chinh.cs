@@ -207,13 +207,17 @@ namespace QuanLyPhongKham
         private void thêmBệnhNhânToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             ThemThongTinBenhNhan x = new ThemThongTinBenhNhan();
+            this.Hide();
             x.ShowDialog();
+            this.Close();
         }
 
         private void lậpPhiếuKhámBệnhToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LapPhieuKhamBenh_GUI a = new LapPhieuKhamBenh_GUI();
+            this.Hide();
             a.ShowDialog();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -225,6 +229,7 @@ namespace QuanLyPhongKham
             MenuQuanLyKhamBenh ql = new MenuQuanLyKhamBenh();
             this.Hide();
             ql.ShowDialog();
+            this.Close();
         }
 
         private void panel14_Paint(object sender, PaintEventArgs e)
@@ -244,6 +249,7 @@ namespace QuanLyPhongKham
             QuanLiThongTinNhanVien_GUI x = new QuanLiThongTinNhanVien_GUI();
             this.Hide();
             x.ShowDialog();
+            this.Close();
         }
 
         //private void Form_Chinh_FormClosing(object sender, FormClosingEventArgs e)
@@ -280,6 +286,7 @@ namespace QuanLyPhongKham
             QuanLyThuoc thuoc = new QuanLyThuoc();
             this.Hide();
             thuoc.ShowDialog();
+            this.Close();
 
         }
 
@@ -288,6 +295,7 @@ namespace QuanLyPhongKham
             QuanLyThuoc thuoc = new QuanLyThuoc();
             thuoc.ShowDialog();
             this.Hide();
+            this.Close();
         }
 
         private void đăngXuấtToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -295,7 +303,8 @@ namespace QuanLyPhongKham
             this.Hide();
             DangNhap x = new DangNhap();
             x.ShowDialog();
-            
+            this.Close();
+
         }
 
         private void chỉnhSửaThôngTinThuốcToolStripMenuItem_Click(object sender, EventArgs e)
@@ -303,6 +312,7 @@ namespace QuanLyPhongKham
             QuanLyThuoc thuoc = new QuanLyThuoc();
             thuoc.ShowDialog();
             this.Hide();
+            this.Close();
         }
 
         private void xóaThuốcKhỏiDanhMụcToolStripMenuItem_Click(object sender, EventArgs e)
@@ -310,6 +320,7 @@ namespace QuanLyPhongKham
             QuanLyThuoc thuoc = new QuanLyThuoc();
             thuoc.ShowDialog();
             this.Hide();
+            this.Close();
         }
 
         private void chỉnhSửaThôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
@@ -317,6 +328,7 @@ namespace QuanLyPhongKham
             ThayDoiThongTinCaNhan x = new ThayDoiThongTinCaNhan();
             this.Hide();
             x.ShowDialog();
+            this.Close();
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
@@ -329,6 +341,7 @@ namespace QuanLyPhongKham
             QuanLiThongTinNhanVien_GUI x = new QuanLiThongTinNhanVien_GUI();
             this.Hide();
             x.ShowDialog();
+            this.Close();
         }
 
         private void tìmKiếmLịchSửKhámBệnhToolStripMenuItem_Click(object sender, EventArgs e)
@@ -336,6 +349,7 @@ namespace QuanLyPhongKham
             frmKiemTraHoSoBenhAn x = new frmKiemTraHoSoBenhAn();
             this.Hide();
             x.ShowDialog();
+            this.Close();
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
@@ -351,6 +365,7 @@ namespace QuanLyPhongKham
             QuanLyThuoc Thuoc = new QuanLyThuoc();
             this.Hide();
             Thuoc.ShowDialog();
+            this.Close();
         }
 
         private void Form_Chinh_FormClosing(object sender, FormClosingEventArgs e)
@@ -372,6 +387,7 @@ namespace QuanLyPhongKham
             QuyDinhTienKhamGUI f = new QuyDinhTienKhamGUI();
             this.Hide();
             f.ShowDialog();
+            this.Close();
         }
 
         private void button_BaoCao_Click(object sender, EventArgs e)
@@ -379,6 +395,7 @@ namespace QuanLyPhongKham
             LapBaoCao f = new LapBaoCao();
             this.Hide();
             f.ShowDialog();
+            this.Close();
         }
 
         private void panel1_Paint_2(object sender, PaintEventArgs e)

@@ -128,7 +128,6 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MenuQuanLyKhamBenh_FormClosing);
             this.Load += new System.EventHandler(this.MenuQuanLyKhamBenh_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

@@ -277,6 +277,7 @@ namespace QuanLyPhongMachTu
                 this.Hide();
 
                 x.ShowDialog();
+                this.Close();
             }
 
 
@@ -311,6 +312,7 @@ namespace QuanLyPhongMachTu
                 Form_Chinh x = new Form_Chinh();
                 this.Hide();
                 x.ShowDialog();
+                this.Close();
             }
         }
         // nhan nut lap phieu kham benh, goi form LapPhieuKham
@@ -324,6 +326,7 @@ namespace QuanLyPhongMachTu
             LapPhieuKhamBenh_GUI x = new LapPhieuKhamBenh_GUI(int.Parse(txb_MaBN.Text.ToString()));
             this.Hide();
             x.ShowDialog();
+            this.Close();
         }
          
        

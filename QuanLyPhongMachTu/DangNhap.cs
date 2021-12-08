@@ -32,7 +32,6 @@ namespace QuanLyPhongMachTu
             {
 
                 e.Cancel = true;
-
             }
 
 
@@ -51,7 +50,8 @@ namespace QuanLyPhongMachTu
                 Form_Chinh f = new Form_Chinh(bs);
                 this.Hide();
                 f.ShowDialog();
-               
+                this.Close();
+
             }
             else
             {

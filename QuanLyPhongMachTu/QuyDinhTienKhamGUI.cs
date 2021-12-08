@@ -18,11 +18,17 @@ namespace QuanLyPhongMachTu
         public QuyDinhTienKhamGUI()
         {
             InitializeComponent();
+    
         }
 
+        
         private void QuyDinhTienKhamGUI_Load(object sender, EventArgs e)
         {
             HienThiGiaCu();
+            if(txb_GiaMoi.Text == "")
+            {
+                button_Sua.Enabled = false;
+            }
         }
 
         void HienThiGiaCu()
@@ -71,6 +77,32 @@ namespace QuanLyPhongMachTu
         private void txb_GiaCu_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void txb_GiaMoi_TextChanged(object sender, EventArgs e)
+        {
+            if (CheckPhoneNumber(txb_GiaMoi.Text))
+            {
+                button_Sua.Enabled = true;
+            }
+            else
+            {
+                button_Sua.Enabled = false;
+            }
+           
+        }
+        private bool CheckPhoneNumber(String Numberphone)
+        {
+            if (Numberphone.Length == 0)
+            {
+                return false;
+            }
+            else if (!Int32.TryParse(Numberphone, out int a))
+            {
+                return false;
+            }
+          
+            return true;
         }
     }
 }
