@@ -19,7 +19,7 @@ namespace QuanLyPhongKham
 
         private NHANVIEN bs;
 
-        private Form_Chinh chinh;
+        private static Form_Chinh instance;
 
         public NHANVIEN Bs
         {
@@ -35,18 +35,8 @@ namespace QuanLyPhongKham
             }
         }
 
-        public Form_Chinh Chinh
-        {
-            get
-            {
-                return chinh;
-            }
+        public static Form_Chinh Instance { get => instance; }
 
-            set
-            {
-                chinh = value;
-            }
-        }
 
         public Form_Chinh(NHANVIEN bs) : this()
         {
@@ -56,7 +46,8 @@ namespace QuanLyPhongKham
         public Form_Chinh()
         {
             InitializeComponent();
-            
+            instance = this;
+
         }
         void ChangeAccount(int Loai)
         {
@@ -64,7 +55,7 @@ namespace QuanLyPhongKham
             adminToolStripMenuItem.Enabled = Loai == 1;
             button_Admin.Enabled = Loai == 1;
             button_BaoCao.Enabled = Loai == 1;
-            
+
 
         }
 
@@ -74,130 +65,14 @@ namespace QuanLyPhongKham
 
         }
 
-        private void thôngTinPhầnMềmVàHướngDẫnSửDụngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void thêmBệnhNhânToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listView1_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void thToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void thôngTinToolStripMenuItem_DoubleClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -242,7 +117,7 @@ namespace QuanLyPhongKham
 
         }
 
-       
+
 
         private void themTKToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -273,7 +148,7 @@ namespace QuanLyPhongKham
         {
             ThayDoiThongTinCaNhan x = new ThayDoiThongTinCaNhan(Bs);
             x.CapNhat += x_CapNhat;
-           // this.Hide();
+            // this.Hide();
             x.Show();
         }
 
@@ -328,7 +203,7 @@ namespace QuanLyPhongKham
             ThayDoiThongTinCaNhan x = new ThayDoiThongTinCaNhan();
             this.Hide();
             x.ShowDialog();
-            this.Close();
+            //this.Close();
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)

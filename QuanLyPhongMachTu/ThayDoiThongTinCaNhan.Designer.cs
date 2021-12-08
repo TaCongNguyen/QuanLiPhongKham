@@ -255,7 +255,6 @@
             this.Name = "ThayDoiThongTinCaNhan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thay Đổi Thông Tin Cá Nhân";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DOITHONGTIN_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

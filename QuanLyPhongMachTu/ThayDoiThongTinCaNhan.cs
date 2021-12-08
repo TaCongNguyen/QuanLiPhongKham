@@ -41,7 +41,7 @@ namespace QuanLyPhongMachTu
         public ThayDoiThongTinCaNhan()
         {
             InitializeComponent();
-            
+
 
         }
 
@@ -53,7 +53,7 @@ namespace QuanLyPhongMachTu
                 txb_Ten.Text = bacsi.TenNV1;
                 txb_TenDangNhap.Text = bacsi.TenDangNhap1;
             }
-            
+
         }
 
         private event EventHandler<DOITHONGTINEvent> capNhat;
@@ -65,7 +65,7 @@ namespace QuanLyPhongMachTu
 
         public class DOITHONGTINEvent : EventArgs
         {
-            
+
             private NHANVIEN bACSI;
             public NHANVIEN BACSI
             {
@@ -96,7 +96,7 @@ namespace QuanLyPhongMachTu
             string NhapLaiMKM = txb_NhapLaiMatKhauMoi.Text;
 
             // neu nhap lai mat khau khac voi mat khau moi thi ko thuc hien
-            if(!MatKhauMoi.Equals(NhapLaiMKM))
+            if (!MatKhauMoi.Equals(NhapLaiMKM))
             {
                 MessageBox.Show("Vui lòng nhập đúng các thông tin !", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -106,7 +106,7 @@ namespace QuanLyPhongMachTu
                 if (NHANVIEN_BUS.Instance.CapNhatThongTin(MaBS, TenBS, TenDangNhap, MatKhauCu, MatKhauMoi))
                 {
                     MessageBox.Show("Cập nhật thông tin thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                    if(capNhat != null)
+                    if (capNhat != null)
                     {
                         capNhat(this, new DOITHONGTINEvent(NHANVIEN_BUS.Instance.GetAccountByUserName(TenDangNhap)));
                     }
@@ -117,12 +117,12 @@ namespace QuanLyPhongMachTu
                 }
 
             }
-           
+
         }
 
-       
 
-      
+
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -137,29 +137,16 @@ namespace QuanLyPhongMachTu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form_Chinh x = new Form_Chinh();
 
-            this.Hide();
-
-            x.ShowDialog();
+            if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                Close();
+                Form_Chinh.Instance.Show();
+            }
 
         }
 
-        private void DOITHONGTIN_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
-            {
 
-                e.Cancel = true;
-
-            }
-            else
-            {
-                
-                this.Hide();
-               
-            }
-        }
 
         private void lb_MatKhauCu_Click(object sender, EventArgs e)
         {

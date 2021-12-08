@@ -67,7 +67,7 @@
             // button_Xoa
             // 
             this.button_Xoa.BackColor = System.Drawing.Color.Red;
-            this.button_Xoa.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.button_Xoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_Xoa.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button_Xoa.FlatAppearance.BorderSize = 0;
             this.button_Xoa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
@@ -86,7 +86,7 @@
             // button_Them
             // 
             this.button_Them.BackColor = System.Drawing.Color.PaleGreen;
-            this.button_Them.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.button_Them.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_Them.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button_Them.FlatAppearance.BorderSize = 0;
             this.button_Them.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -105,7 +105,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.PaleGreen;
-            this.button5.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
@@ -285,7 +285,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.IndianRed;
-            this.button6.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;

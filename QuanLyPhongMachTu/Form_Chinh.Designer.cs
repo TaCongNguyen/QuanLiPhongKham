@@ -85,8 +85,6 @@
             this.thToolStripMenuItem.Name = "thToolStripMenuItem";
             this.thToolStripMenuItem.Size = new System.Drawing.Size(164, 23);
             this.thToolStripMenuItem.Text = "Thông Tin Tài Khoản";
-            this.thToolStripMenuItem.Click += new System.EventHandler(this.thToolStripMenuItem_Click);
-            // 
             // thôngTinToolStripMenuItem
             // 
             this.thôngTinToolStripMenuItem.Name = "thôngTinToolStripMenuItem";
