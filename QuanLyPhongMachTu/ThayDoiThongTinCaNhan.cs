@@ -120,14 +120,6 @@ namespace QuanLyPhongMachTu
 
         }
 
-
-
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button_SUA_Click(object sender, EventArgs e)
         {
 
@@ -137,25 +129,19 @@ namespace QuanLyPhongMachTu
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Close();
+        }
 
-            if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+        private void ThayDoiThongTinCaNhan_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != DialogResult.OK)
             {
-                Close();
+                e.Cancel = true;
+            }
+            else
+            {
                 Form_Chinh.Instance.Show();
             }
-
-        }
-
-
-
-        private void lb_MatKhauCu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lb_TenDangNhap_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

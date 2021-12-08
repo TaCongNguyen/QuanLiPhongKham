@@ -22,7 +22,7 @@ namespace QuanLyPhongMachTu
 
         //private object DataGirdViewRow;
 
-       
+
         private void QuanLyThuoc_Load(object sender, EventArgs e)
         {
 
@@ -57,7 +57,7 @@ namespace QuanLyPhongMachTu
             {
                 return false;
             }
-          
+
         }
 
 
@@ -76,8 +76,8 @@ namespace QuanLyPhongMachTu
                 return;
             }
             bnDTO.TenThuoc1 = txb_TenThuoc.Text;
-           
-            bnDTO.Gia1 =float.Parse( txb_Gia.Text);
+
+            bnDTO.Gia1 = float.Parse(txb_Gia.Text);
 
             cbb_DVT.ValueMember = "DonViTinh1";
 
@@ -121,12 +121,12 @@ namespace QuanLyPhongMachTu
             }
             catch
             { return; }
-          
+
         }
         // sua thuoc
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             // khoi tao doi tuong DTO
             THUOC bnDTO = new THUOC();
 
@@ -141,7 +141,7 @@ namespace QuanLyPhongMachTu
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-           
+
 
             bnDTO.TenThuoc1 = txb_TenThuoc.Text;
 
@@ -161,7 +161,7 @@ namespace QuanLyPhongMachTu
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {         
+        {
             THUOC bnDTO = new THUOC();
             bnDTO.TenThuoc1 = txb_TenThuoc.Text;
             if (THUOC_BUS.XoaTHUOC(bnDTO) == true)
@@ -172,23 +172,18 @@ namespace QuanLyPhongMachTu
 
                 return;
             }
-                MessageBox.Show(" Xóa không thành công!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show(" Xóa không thành công!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void QuanLyThuoc_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
             {
-
                 e.Cancel = true;
-
             }
             else
             {
-
-                Form_Chinh x = new Form_Chinh();
-                this.Hide();
-                x.ShowDialog();
+                Form_Chinh.Instance.Show();
             }
         }
 
@@ -214,9 +209,8 @@ namespace QuanLyPhongMachTu
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form_Chinh f = new Form_Chinh();
-            this.Hide();
-            f.ShowDialog();
+            Close();
+
         }
     }
 }

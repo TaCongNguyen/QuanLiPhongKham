@@ -16,14 +16,14 @@ namespace QuanLyPhongMachTu
 {
     public partial class DangNhap : Form
     {
-        
-           
+
+
         public DangNhap()
         {
             InitializeComponent();
         }
 
-      
+
 
 
         private void flogin_FormClosing(object sender, FormClosingEventArgs e)
@@ -47,8 +47,8 @@ namespace QuanLyPhongMachTu
 
                 NHANVIEN bs = NHANVIEN_BUS.Instance.GetAccountByUserName(TenDangNhap);
 
-                Form_Chinh f = new Form_Chinh(bs);
                 this.Hide();
+                Form_Chinh f = new Form_Chinh(bs);
                 f.ShowDialog();
                 this.Close();
 
@@ -60,30 +60,12 @@ namespace QuanLyPhongMachTu
 
         }
 
-       
+
         private void buton_Thoat(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void DangNhap_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lb_ThongTinDangNhap_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

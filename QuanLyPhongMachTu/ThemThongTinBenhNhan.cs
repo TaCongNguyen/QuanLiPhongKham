@@ -7,24 +7,25 @@ using DTO;
 using System.Text.RegularExpressions;
 using System.Data;
 using QuanLyPhongKham;
+using System.Drawing;
 
 namespace QuanLyPhongMachTu
 {
     public partial class ThemThongTinBenhNhan : Form
     {
 
-        
+
         //private object DataGirdViewRow;
 
         public ThemThongTinBenhNhan()
         {
             InitializeComponent();
-           
+
         }
         private void ThemThongTinBenhNhan_Load(object sender, EventArgs e)
         {
             TaiDuLieuVaoDataGirdView();
-            
+
         }
         public void TaiDuLieuVaoDataGirdView()
         {
@@ -72,27 +73,27 @@ namespace QuanLyPhongMachTu
         }
         private void button_Them_Click(object sender, EventArgs e)
         {
-            
-            if (IsNumber(txb_DienThoai.Text)== false || txb_DienThoai.Text =="")
+
+            if (IsNumber(txb_DienThoai.Text) == false || txb_DienThoai.Text == "")
             {
                 MessageBox.Show("Số điện thoại không đúng. Vui lòng nhập lại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if(txb_HoTen.Text == "" )
+            if (txb_HoTen.Text == "")
             {
                 MessageBox.Show(" Vui lòng nhập tên bệnh nhân lại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-           
+
             // khoi tao doi tuong DTO
             BENHNHAN bnDTO = new BENHNHAN();
-           // bnDTO.MaBN1 = txb_MaBN.Text;
+            // bnDTO.MaBN1 = txb_MaBN.Text;
             bnDTO.TenBN1 = txb_HoTen.Text;
-            bnDTO.NgaySinh1 = DateTime.Parse(  dtp_NgaySinh.Text);
+            bnDTO.NgaySinh1 = DateTime.Parse(dtp_NgaySinh.Text);
             bnDTO.DiaChi1 = txb_DiaChi.Text;
             bnDTO.DienThoai1 = txb_DienThoai.Text.ToString();
             //bnDTO.GioiTinh1=
-            if(rdb_Nam.Checked == true)
+            if (rdb_Nam.Checked == true)
             {
                 bnDTO.GioiTinh1 = "Nam";
             }
@@ -101,8 +102,8 @@ namespace QuanLyPhongMachTu
                 bnDTO.GioiTinh1 = "Nữ";
             }
 
-            
-            if(KiemTraTonTai(bnDTO)== false)
+
+            if (KiemTraTonTai(bnDTO) == false)
             {
                 // goi lop nghiep vu BENHNHAN_BUS
                 if (BenhNhanBUS.ThemBenhNhan(bnDTO) == true)
@@ -131,8 +132,8 @@ namespace QuanLyPhongMachTu
                 }
             }
             // neu sai gan texbox_MaBN bang MaBN cu, de tien hanh lap phieu kham
-            
-       
+
+
 
         }
 
@@ -169,7 +170,7 @@ namespace QuanLyPhongMachTu
 
             // khoi tao doi tuong DTO
             BENHNHAN bnDTO = new BENHNHAN();
-             bnDTO.MaBN1 =int.Parse( txb_MaBN.Text);
+            bnDTO.MaBN1 = int.Parse(txb_MaBN.Text);
             bnDTO.TenBN1 = txb_HoTen.Text;
             bnDTO.NgaySinh1 = DateTime.Parse(dtp_NgaySinh.Text);
             bnDTO.DiaChi1 = txb_DiaChi.Text;
@@ -189,7 +190,7 @@ namespace QuanLyPhongMachTu
                 TaiDuLieuVaoDataGirdView();
 
                 MessageBox.Show("Sửa thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-               
+
                 return;
             }
             MessageBox.Show(" Sửa không thành công!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -203,7 +204,7 @@ namespace QuanLyPhongMachTu
         //        return;
         //    }
         //    DataGridViewRow dr = dgv_ThongTinBenhNhan.SelectedRows[0];
-            
+
         //    txb_MaBN.Text = dr.Cells["MaBN1"].Value.ToString();
         //    txb_HoTen.Text = dr.Cells["TenBN1"].Value.ToString();
         //    //ngay sinh
@@ -224,7 +225,7 @@ namespace QuanLyPhongMachTu
         // xoa benh nhan
         private void button1_Click(object sender, EventArgs e)
         {
-            if(txb_MaBN.Text == "")
+            if (txb_MaBN.Text == "")
             {
                 MessageBox.Show("Hãy chọn bệnh nhân cần xóa!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
@@ -259,7 +260,7 @@ namespace QuanLyPhongMachTu
                 rdb_Nam.Checked = false;
                 rdb_Nu.Checked = false;
                 //bnDTO.GioiTinh1=
-               
+
 
                 return;
             }
@@ -268,59 +269,26 @@ namespace QuanLyPhongMachTu
         // nut Lap phiếu khám bệnh
         private void button6_Click(object sender, EventArgs e)
         {
-            DialogResult dlr = MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if(dlr == DialogResult.Yes)
-            {
-                Form_Chinh x = new Form_Chinh();
-
-                this.Hide();
-
-                x.ShowDialog();
-                this.Close();
-            }
-
-
-
-            //if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
-            //{
-
-            //    e.Cancel = true;
-
-            //}
-            //else
-            //{
-
-            //    Form_Chinh x = new Form_Chinh();
-            //    this.Hide();
-            //    x.ShowDialog();
-            //}
-
+            Close();
         }
 
         private void ThemThongTinBenhNhan_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
             {
-
                 e.Cancel = true;
-
             }
             else
             {
-
-                Form_Chinh x = new Form_Chinh();
-                this.Hide();
-                x.ShowDialog();
-                this.Close();
+                Form_Chinh.Instance.Show();
             }
         }
         // nhan nut lap phieu kham benh, goi form LapPhieuKham
         private void button4_Click(object sender, EventArgs e)
-        { 
-            if(txb_HoTen.Text == "" || txb_HoTen == null)
+        {
+            if (txb_HoTen.Text == "" || txb_HoTen == null)
             {
-                MessageBox.Show("Vui lòng chọn mã bệnh nhân!","Thông Báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng chọn mã bệnh nhân!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             LapPhieuKhamBenh_GUI x = new LapPhieuKhamBenh_GUI(int.Parse(txb_MaBN.Text.ToString()));
@@ -328,9 +296,9 @@ namespace QuanLyPhongMachTu
             x.ShowDialog();
             this.Close();
         }
-         
-       
-        
+
+
+
         private void dgv_ThongTinBenhNhan_Click(object sender, EventArgs e)
         {
             try
@@ -353,6 +321,18 @@ namespace QuanLyPhongMachTu
                 }
             }
             catch { return; }
+        }
+
+
+
+        private void button_Xoa_MouseLeave(object sender, EventArgs e)
+        {
+            (sender as Button).ForeColor = Color.White;
+        }
+
+        private void button_Xoa_MouseEnter(object sender, EventArgs e)
+        {
+            (sender as Button).ForeColor = Color.Black;
         }
     }
 }

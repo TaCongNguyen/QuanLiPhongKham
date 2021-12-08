@@ -82,6 +82,8 @@
             this.button_Xoa.Text = "Xóa";
             this.button_Xoa.UseVisualStyleBackColor = false;
             this.button_Xoa.Click += new System.EventHandler(this.button1_Click);
+            this.button_Xoa.MouseEnter += new System.EventHandler(this.button_Xoa_MouseEnter);
+            this.button_Xoa.MouseLeave += new System.EventHandler(this.button_Xoa_MouseLeave);
             // 
             // button_Them
             // 
@@ -266,7 +268,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.PaleGreen;
-            this.button4.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
@@ -300,6 +302,8 @@
             this.button6.Text = "Thoát";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.MouseEnter += new System.EventHandler(this.button_Xoa_MouseEnter);
+            this.button6.MouseLeave += new System.EventHandler(this.button_Xoa_MouseLeave);
             // 
             // rdb_Nam
             // 

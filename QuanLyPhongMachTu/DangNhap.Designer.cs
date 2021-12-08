@@ -70,7 +70,6 @@ namespace QuanLyPhongMachTu
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(93, 112);
             this.panel1.TabIndex = 4;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // lb_ThongTinDangNhap
             // 
@@ -82,7 +81,6 @@ namespace QuanLyPhongMachTu
             this.lb_ThongTinDangNhap.Size = new System.Drawing.Size(279, 32);
             this.lb_ThongTinDangNhap.TabIndex = 4;
             this.lb_ThongTinDangNhap.Text = "Thông Tin Đăng Nhập";
-            this.lb_ThongTinDangNhap.Click += new System.EventHandler(this.lb_ThongTinDangNhap_Click);
             // 
             // button_Thoat
             // 
@@ -191,7 +189,6 @@ namespace QuanLyPhongMachTu
             this.label2.Size = new System.Drawing.Size(81, 22);
             this.label2.TabIndex = 0;
             this.label2.Text = "(admin)";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // lb_TenDangNhap
             // 
@@ -218,7 +215,6 @@ namespace QuanLyPhongMachTu
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.flogin_FormClosing);
-            this.Load += new System.EventHandler(this.DangNhap_Load);
             this.panelSoan.ResumeLayout(false);
             this.panelSoan.PerformLayout();
             this.panel3.ResumeLayout(false);

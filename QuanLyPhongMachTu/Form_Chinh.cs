@@ -84,7 +84,7 @@ namespace QuanLyPhongKham
             ThemThongTinBenhNhan x = new ThemThongTinBenhNhan();
             this.Hide();
             x.ShowDialog();
-            this.Close();
+            //this.Close();
         }
 
         private void lậpPhiếuKhámBệnhToolStripMenuItem_Click(object sender, EventArgs e)
@@ -124,7 +124,7 @@ namespace QuanLyPhongKham
             QuanLiThongTinNhanVien_GUI x = new QuanLiThongTinNhanVien_GUI();
             this.Hide();
             x.ShowDialog();
-            this.Close();
+            //this.Close();
         }
 
         //private void Form_Chinh_FormClosing(object sender, FormClosingEventArgs e)
@@ -206,10 +206,7 @@ namespace QuanLyPhongKham
             //this.Close();
         }
 
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
@@ -240,7 +237,7 @@ namespace QuanLyPhongKham
             QuanLyThuoc Thuoc = new QuanLyThuoc();
             this.Hide();
             Thuoc.ShowDialog();
-            this.Close();
+            //this.Close();
         }
 
         private void Form_Chinh_FormClosing(object sender, FormClosingEventArgs e)

@@ -138,7 +138,6 @@
             this.lb_MatKhauCu.TabIndex = 1;
             this.lb_MatKhauCu.Text = "MẬT KHẨU CŨ";
             this.lb_MatKhauCu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lb_MatKhauCu.Click += new System.EventHandler(this.lb_MatKhauCu_Click);
             // 
             // lb_TenDangNhap
             // 
@@ -150,7 +149,6 @@
             this.lb_TenDangNhap.TabIndex = 1;
             this.lb_TenDangNhap.Text = "TÊN ĐĂNG NHẬP";
             this.lb_TenDangNhap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lb_TenDangNhap.Click += new System.EventHandler(this.lb_TenDangNhap_Click);
             // 
             // lb_HoTen
             // 
@@ -216,7 +214,6 @@
             this.txb_Ten.Name = "txb_Ten";
             this.txb_Ten.Size = new System.Drawing.Size(416, 28);
             this.txb_Ten.TabIndex = 1;
-            this.txb_Ten.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txb_Ma
             // 
@@ -228,7 +225,6 @@
             this.txb_Ma.TabIndex = 0;
             this.txb_Ma.TabStop = false;
             this.txb_Ma.Text = "Vui Lòng điền đúng mã của bản thân";
-            this.txb_Ma.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lb_ThayDoiThongTinCaNhan
             // 
@@ -255,6 +251,7 @@
             this.Name = "ThayDoiThongTinCaNhan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thay Đổi Thông Tin Cá Nhân";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ThayDoiThongTinCaNhan_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
