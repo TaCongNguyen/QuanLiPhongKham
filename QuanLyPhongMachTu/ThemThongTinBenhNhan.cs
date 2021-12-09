@@ -269,19 +269,13 @@ namespace QuanLyPhongMachTu
         // nut Lap phiếu khám bệnh
         private void button6_Click(object sender, EventArgs e)
         {
-            Close();
+            Form_Chinh x = new Form_Chinh();
+            this.Hide();
+            x.ShowDialog();
         }
 
         private void ThemThongTinBenhNhan_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
-            {
-                e.Cancel = true;
-            }
-            else
-            {
-                Form_Chinh.Instance.Show();
-            }
+        { 
         }
         // nhan nut lap phieu kham benh, goi form LapPhieuKham
         private void button4_Click(object sender, EventArgs e)

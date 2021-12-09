@@ -226,9 +226,7 @@ namespace QuanLyPhongKham
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-            Application.ExitThread();
-
+            Environment.Exit(0);
 
         }
 

@@ -177,14 +177,7 @@ namespace QuanLyPhongMachTu
 
         private void QuanLyThuoc_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
-            {
-                e.Cancel = true;
-            }
-            else
-            {
-                Form_Chinh.Instance.Show();
-            }
+            
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -203,13 +196,24 @@ namespace QuanLyPhongMachTu
                 Form_Chinh x = new Form_Chinh();
                 this.Hide();
                 x.ShowDialog();
+                this.Close();
 
             }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Close();
+            DialogResult dlr = MessageBox.Show("Bạn có thực sự muốn thoát không?", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dlr == DialogResult.Yes)
+            {
+
+                Form_Chinh x = new Form_Chinh();
+                this.Hide();
+                x.ShowDialog();
+                this.Close();
+
+            }
 
         }
     }
